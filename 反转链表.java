@@ -8,7 +8,9 @@
  * }
  */
 public class Solution{
-	//空间多，时间长
+	/**
+	 *栈
+	 */
 	public ListNode reverseList(ListNode listNode) {
 		if (listNode != null) {
 			Stack<Integer> stack = new Stack<Integer>();
@@ -27,4 +29,21 @@ public class Solution{
 			return listNode;
 		}
 	}
+	/**
+	 *迭代
+	 */
+	public ListNode ReverseList(ListNode head) {
+        ListNode pre = null;
+        ListNode next = null;
+        if (head == null) {
+            return null;
+        }
+        while (head != null) {
+            next = head.next;
+            head.next = pre;
+            pre = head;
+            head = next;
+        }
+        return pre;
+    }
 }
