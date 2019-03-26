@@ -6,6 +6,7 @@ import java.util.Arrays;
  * @author xjk
  * @date 2019/3/20 -  15:44
  * 插入排序
+ * 具有稳定性
  **/
 public class InsertionSort {
 

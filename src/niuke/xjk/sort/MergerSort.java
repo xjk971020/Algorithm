@@ -7,6 +7,7 @@ import java.util.Arrays;
  * @date 2019/3/22 -  16:31
  * 归并排序
  * 递归
+ * 具有稳定性
  **/
 public class MergerSort {
     public static void mergeSort(int[] arr) {

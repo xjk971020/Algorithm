@@ -6,6 +6,7 @@ import java.util.Arrays;
  * @author xjk
  * @date 2019/3/20 -  15:12
  * 选择排序
+ * 不具有稳定性
  **/
 public class SelectionSort {
 

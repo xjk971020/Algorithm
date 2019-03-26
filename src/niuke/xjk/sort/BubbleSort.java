@@ -6,6 +6,7 @@ import java.util.Arrays;
  * @author xjk
  * @date 2019/3/20 -  14:54
  * 冒泡排序
+ * 具有稳定性
  **/
 public class BubbleSort {
     public static int[] bubbleSort(int[] arr) {
