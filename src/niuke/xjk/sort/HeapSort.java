@@ -1,5 +1,7 @@
 package niuke.xjk.sort;
 
+import niuke.xjk.util.Counter;
+
 import java.util.Arrays;
 
 /**

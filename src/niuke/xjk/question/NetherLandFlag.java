@@ -1,7 +1,6 @@
 package niuke.xjk.question;
 
-import niuke.xjk.sort.Counter;
-import niuke.xjk.sort.InsertionSort;
+import niuke.xjk.util.Counter;
 
 import java.util.Arrays;
 

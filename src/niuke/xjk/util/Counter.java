@@ -1,4 +1,6 @@
-package niuke.xjk.sort;
+package niuke.xjk.util;
+
+import niuke.xjk.sort.InsertionSort;
 
 import java.util.Arrays;
 
