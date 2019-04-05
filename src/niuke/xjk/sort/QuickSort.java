@@ -17,12 +17,12 @@ public class QuickSort {
             //随机快排
             //时间复杂度 O(N*logN)
             swap(arr,left + (int) Math.random() * (right -left + 1),right);
-            int[] partition = partitoion(arr,left,right);
+            int[] partition = partition(arr,left,right);
             quickSort(arr, left, partition[0] - 1);
             quickSort(arr, partition[1] + 1, right);
         }
     }
-    private static int[] partitoion(int[] arr, int left, int right) {
+    private static int[] partition(int[] arr, int left, int right) {
         int less = left - 1;
         int more = right;
         while (left < more) {
@@ -48,5 +48,5 @@ public class QuickSort {
         int[] arr = Counter.generateRandomArray(40,100);
         quickSort(arr, 0 , arr.length - 1);
         System.out.println(Arrays.toString(arr));
-    }
+}
 }

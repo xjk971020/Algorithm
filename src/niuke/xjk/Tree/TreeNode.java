@@ -63,16 +63,16 @@ public class TreeNode {
         System.out.println("pre-order-unrecur:");
         if (treeNode != null) {
             Stack<TreeNode> stack = new Stack<>();
-            stack.add(treeNode);
-            while (!stack.isEmpty()) {
-                treeNode = stack.pop();
-                System.out.print(treeNode.val + " ");
-                if (treeNode.right != null) {
-                    stack.push(treeNode.right);
-                }
-                if (treeNode.left != null) {
-                    stack.push(treeNode.left);
-                }
+                stack.add(treeNode);
+                while (!stack.isEmpty()) {
+                    treeNode = stack.pop();
+                    System.out.print(treeNode.val + " ");
+                    if (treeNode.right != null) {
+                        stack.push(treeNode.right);
+                    }
+                    if (treeNode.left != null) {
+                        stack.push(treeNode.left);
+                    }
             }
         }
         System.out.println();
