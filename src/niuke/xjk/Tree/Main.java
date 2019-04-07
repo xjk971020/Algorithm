@@ -30,6 +30,10 @@ public class Main {
         head.right.right.parent = head.right;
 
         //测试是否是平衡二叉树
-        System.out.println(BlancedTree.isBlancedTree(head));
+        System.out.println("是否为平衡二叉树: " + BlancedTree.isBlancedTree(head));
+        //测试树的深度
+        System.out.println("二叉树的深度为:" + TreeMethod  .getMaxDepth(head));
+        //测试树中叶子节点的个数
+        System.out.println("二叉树叶子节点的个数: " + TreeMethod.numsOfNoChildNode(head));
     }
 }

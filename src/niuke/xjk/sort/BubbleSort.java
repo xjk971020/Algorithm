@@ -10,15 +10,21 @@ import java.util.Arrays;
  **/
 public class BubbleSort {
     public static int[] bubbleSort(int[] arr) {
-        if (arr == null || arr.length < 2) {
-
+        if (arr.length < 2 ||arr == null) {
             return arr;
         }
+        //开关判断是否在某次遍历中没有发生交换，如果没有，则说明已经排好序
+        boolean didSwap;
         for (int end = arr.length - 1; end > 0; --end) {
+            didSwap = false;
             for (int i = 0; i < end; i++) {
                 if (arr[i] > arr[i+1]) {
-                    swap(arr,i,i+1);
+                    swap(arr, i, i + 1);
+                    didSwap = true;
                 }
+            }
+            if (didSwap == true) {
+                return arr;
             }
         }
         return arr;
