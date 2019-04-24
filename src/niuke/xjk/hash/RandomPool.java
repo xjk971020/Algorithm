@@ -22,7 +22,7 @@ public class RandomPool {
         }
 
         public void insert(K key) {
-            if (!indexKeyMap.containsKey(key)) {
+            if (!keyIndexMap.containsKey(key)) {
                 indexKeyMap.put(size,key);
                 keyIndexMap.put(key,size++);
             }
