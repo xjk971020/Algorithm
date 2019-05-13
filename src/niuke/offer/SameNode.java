@@ -3,7 +3,6 @@ package niuke.offer;
 import leetcode.ListNode;
 
 import java.util.HashSet;
-import java.util.TreeSet;
 
 /**
  * @author xjk
