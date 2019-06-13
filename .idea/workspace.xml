@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="45c14e5d-05ea-4515-83cb-b061c561db5a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/niuke/offer/Fibonacci.java" afterDir="false" />
+    <list default="true" id="45c14e5d-05ea-4515-83cb-b061c561db5a" name="Default" comment="斐波那契数列">
+      <change afterPath="$PROJECT_DIR$/src/niuke/offer/JumpFloorII.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,11 +15,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Fibonacci.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Fibonacci.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/niuke/offer/Fibonacci.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="934">
-              <caret line="50" column="20" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
+            <state relative-caret-position="394">
+              <caret line="33" column="67" lean-forward="true" selection-start-line="33" selection-start-column="67" selection-end-line="33" selection-end-column="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JumpFloorII.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/niuke/offer/JumpFloorII.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -41,6 +50,7 @@
       <list>
         <option value="$PROJECT_DIR$/src/niuke/offer/JumpFloor.java" />
         <option value="$PROJECT_DIR$/src/niuke/offer/Fibonacci.java" />
+        <option value="$PROJECT_DIR$/src/niuke/offer/JumpFloorII.java" />
       </list>
     </option>
   </component>
@@ -167,7 +177,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1560409403487</updated>
-      <workItem from="1560409404634" duration="2640000" />
+      <workItem from="1560409404634" duration="3268000" />
     </task>
     <task id="LOCAL-00001" summary="跳台阶">
       <created>1560410663527</created>
@@ -176,11 +186,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560410663527</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="斐波那契数列">
+      <created>1560412701738</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1560412701738</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2640000" />
+    <option name="totallyTimeSpent" value="3268000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
@@ -224,7 +241,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="跳台阶" />
-    <option name="LAST_COMMIT_MESSAGE" value="跳台阶" />
+    <MESSAGE value="斐波那契数列" />
+    <option name="LAST_COMMIT_MESSAGE" value="斐波那契数列" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/niuke/offer/JumpFloor.java">
@@ -236,8 +254,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/niuke/offer/Fibonacci.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="934">
-          <caret line="50" column="20" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
+        <state relative-caret-position="394">
+          <caret line="33" column="67" lean-forward="true" selection-start-line="33" selection-start-column="67" selection-end-line="33" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/niuke/offer/JumpFloorII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
         </state>
       </provider>
     </entry>
