@@ -32,8 +32,4 @@ public class UglyNumber {
         }
         return arr[index - 1];
     }
-
-    public static void main(String[] args) {
-        System.out.println(getUglyNumber(7));
-    }
 }
