@@ -23,8 +23,8 @@ public class FindPath {
      if (target == 0 && root.left == null && root.right == null) {
          result.add(new ArrayList<>(path));
      }
-     FindPath(root.left, target);
-     FindPath(root.right, target);
+     findPath(root.left, target);
+     findPath(root.right, target);
      path.remove(path.size() - 1);
      return result;
   }
