@@ -43,6 +43,9 @@ public class SmallSum {
         while (p2 <= right) {
             help[i++] = arr[p2++];
         }
+        for (i = 0; i < help.length; i ++) {
+            arr[left + i] = help[i];
+        }
         return res;
     }
 
