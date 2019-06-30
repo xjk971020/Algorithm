@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3071817-7553-4b6e-8e93-2ff7f79e3730" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/niuke/offer/ReverseSentence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/niuke/offer/IsContinuous.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -16,51 +16,51 @@
     <session id="-315903849">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="5" />
-          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.5" value="3" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="15" />
-          <entry key="md" value="6" />
+          <entry key="java" value="16" />
+          <entry key="md" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="15" />
-          <entry key="Markdown" value="6" />
+          <entry key="JAVA" value="16" />
+          <entry key="Markdown" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="ft" value="42" />
-          <entry key="java" value="4282" />
-          <entry key="md" value="89" />
-          <entry key="txt" value="37" />
+          <entry key="java" value="4578" />
+          <entry key="md" value="94" />
+          <entry key="txt" value="43" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4282" />
-          <entry key="Markdown" value="89" />
-          <entry key="PLAIN_TEXT" value="37" />
+          <entry key="JAVA" value="4578" />
+          <entry key="Markdown" value="94" />
+          <entry key="PLAIN_TEXT" value="43" />
           <entry key="VTL" value="42" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/niuke/offer/ReverseSentence.java">
+        <entry file="file://$PROJECT_DIR$/src/niuke/offer/IsContinuous.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="24" column="52" lean-forward="true" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="52" />
+            <state relative-caret-position="500">
+              <caret line="37" column="37" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -88,8 +88,9 @@
         <option value="$PROJECT_DIR$/src/niuke/offer/DeleteNodeInList.java" />
         <option value="$PROJECT_DIR$/src/niuke/offer/FirstAppearingOnce.java" />
         <option value="$PROJECT_DIR$/src/niuke/offer/Multiply.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/niuke/offer/ReverseSentence.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/niuke/offer/IsContinuous.java" />
       </list>
     </option>
   </component>
@@ -109,8 +110,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -140,12 +139,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561877413794" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561885413185" />
     <property name="last_opened_file_path" value="E:/Services/Git-2.15.1.2-64-bit/Git/bin/git.exe" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -199,7 +200,8 @@
       <workItem from="1561794019479" duration="1973000" />
       <workItem from="1561863816095" duration="3228000" />
       <workItem from="1561877149800" duration="266000" />
-      <workItem from="1561877440229" duration="1384000" />
+      <workItem from="1561877440229" duration="1627000" />
+      <workItem from="1561883178044" duration="1057000" />
     </task>
     <task id="LOCAL-00001" summary="左旋转字符串">
       <created>1561714943982</created>
@@ -285,17 +287,31 @@
       <option name="project" value="LOCAL" />
       <updated>1561867500596</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="翻转单词顺序列">
+      <created>1561878990386</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1561878990386</updated>
+    </task>
+    <task id="LOCAL-00014" summary="update">
+      <created>1561879005235</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1561879005235</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27315000" />
+    <option name="totallyTimeSpent" value="28615000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2533512" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -338,6 +354,7 @@
     <MESSAGE value="在O(1)时间内删除链表中指定节点" />
     <MESSAGE value="字符流中第一个不重复的字符" />
     <MESSAGE value="构建乘积数组" />
+    <MESSAGE value="翻转单词顺序列" />
     <MESSAGE value="update" />
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
@@ -384,16 +401,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="354">
-            <caret line="58" column="12" lean-forward="true" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="12" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/niuke/offer/FirstAppearingOnce.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -433,10 +440,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="594">
+            <caret line="71" column="9" selection-start-line="71" selection-start-column="9" selection-end-line="71" selection-end-column="9" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/niuke/offer/ReverseSentence.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="24" column="52" lean-forward="true" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="52" />
+        <state relative-caret-position="95">
+          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/niuke/offer/IsContinuous.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="37" column="37" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
         </state>
       </provider>
     </entry>
