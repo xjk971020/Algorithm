@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3071817-7553-4b6e-8e93-2ff7f79e3730" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/niuke/offer/DeleteNodeInList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/niuke/offer/FirstAppearingOnce.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -16,49 +16,60 @@
     <session id="-315903849">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="4" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="10" />
-          <entry key="md" value="4" />
+          <entry key="java" value="11" />
+          <entry key="md" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="10" />
-          <entry key="Markdown" value="4" />
+          <entry key="JAVA" value="11" />
+          <entry key="Markdown" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="ft" value="42" />
-          <entry key="java" value="3158" />
-          <entry key="md" value="48" />
-          <entry key="txt" value="19" />
+          <entry key="java" value="3414" />
+          <entry key="md" value="51" />
+          <entry key="txt" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3158" />
-          <entry key="Markdown" value="48" />
-          <entry key="PLAIN_TEXT" value="19" />
+          <entry key="JAVA" value="3414" />
+          <entry key="Markdown" value="51" />
+          <entry key="PLAIN_TEXT" value="25" />
           <entry key="VTL" value="42" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/niuke/offer/DeleteNodeInList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+            <state relative-caret-position="96">
+              <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/niuke/offer/FirstAppearingOnce.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="655">
+              <caret line="36" column="5" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="36" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -83,8 +94,9 @@
         <option value="$PROJECT_DIR$/src/niuke/offer/LeftRotateString.java" />
         <option value="$PROJECT_DIR$/src/niuke/offer/EntryNodeOfLoop.java" />
         <option value="$PROJECT_DIR$/src/niuke/offer/DeleteDuplication.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/niuke/offer/DeleteNodeInList.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/niuke/offer/FirstAppearingOnce.java" />
       </list>
     </option>
   </component>
@@ -95,7 +107,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="182" />
+    <option name="x" value="180" />
     <option name="width" value="1750" />
     <option name="height" value="1030" />
   </component>
@@ -104,6 +116,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -133,14 +147,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561786245630" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561864571627" />
     <property name="last_opened_file_path" value="E:/Services/Git-2.15.1.2-64-bit/Git/bin/git.exe" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
@@ -190,7 +202,9 @@
       <workItem from="1561705073386" duration="238000" />
       <workItem from="1561713856150" duration="1221000" />
       <workItem from="1561724422306" duration="3145000" />
-      <workItem from="1561769440400" duration="9533000" />
+      <workItem from="1561769440400" duration="9667000" />
+      <workItem from="1561794019479" duration="1973000" />
+      <workItem from="1561863816095" duration="731000" />
     </task>
     <task id="LOCAL-00001" summary="左旋转字符串">
       <created>1561714943982</created>
@@ -234,17 +248,31 @@
       <option name="project" value="LOCAL" />
       <updated>1561775630612</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="在O(1)时间内删除链表中指定节点">
+      <created>1561786250607</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1561786250607</updated>
+    </task>
+    <task id="LOCAL-00008" summary="update">
+      <created>1561786262779</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1561786262779</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20330000" />
+    <option name="totallyTimeSpent" value="23168000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23659517" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24329759" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -284,6 +312,7 @@
     <MESSAGE value="左旋转字符串" />
     <MESSAGE value="链表中环的入口结点" />
     <MESSAGE value="删除链表中重复的结点" />
+    <MESSAGE value="在O(1)时间内删除链表中指定节点" />
     <MESSAGE value="update" />
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
@@ -330,31 +359,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/niuke/offer/DeleteDuplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="654">
-            <caret line="64" column="12" selection-start-line="64" selection-start-column="12" selection-end-line="64" selection-end-column="12" />
+          <first_editor relative-caret-position="934">
+            <caret line="65" column="19" selection-start-line="65" selection-start-column="19" selection-end-line="65" selection-end-column="19" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/niuke/offer/DeleteDuplication.java">
+    <entry file="file://$PROJECT_DIR$/src/niuke/offer/DeleteNodeInList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
-          <folding>
-            <element signature="e#475#476#0" expanded="true" />
-            <element signature="e#513#514#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="96">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/niuke/offer/DeleteNodeInList.java">
+    <entry file="file://$PROJECT_DIR$/src/niuke/offer/FirstAppearingOnce.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+        <state relative-caret-position="655">
+          <caret line="36" column="5" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="36" selection-end-column="5" />
         </state>
       </provider>
     </entry>
