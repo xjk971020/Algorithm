@@ -73,8 +73,4 @@ public class KthNode {
         return null;
     }
 
-    public static void main(String[] args) {
-        TreeNode node = new TreeNode(1);
-        System.out.println(KthNode.kthNode(node,2).val);
-    }
 }
