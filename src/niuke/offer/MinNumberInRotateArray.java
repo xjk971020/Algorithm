@@ -83,4 +83,25 @@ public class MinNumberInRotateArray {
         }
         return 0;
     }
+
+    /**
+     * 链接：https://www.nowcoder.com/questionTerminal/9f3231a991af4f55b95579b44b7a01ba
+     * 来源：牛客网
+     * @param array
+     * @return
+     */
+    public int minNumberInRotateArray(int [] array) {
+        int low = 0 ; int high = array.length - 1;
+        while(low < high){
+            int mid = low + (high - low) / 2;
+            if(array[mid] > array[high]){
+                low = mid + 1;
+            }else if(array[mid] == array[high]){
+                high = high - 1;
+            }else{
+                high = mid;
+            }
+        }
+        return array[low];
+    }
 }
