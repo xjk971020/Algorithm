@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c3071817-7553-4b6e-8e93-2ff7f79e3730" name="Default Changelist" comment="跳台阶">
+    <list default="true" id="c3071817-7553-4b6e-8e93-2ff7f79e3730" name="Default Changelist" comment="变态跳台阶">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/niuke/offer/NumberOf1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/niuke/offer/NumberOf1.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,28 +65,37 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-81">
-                <caret line="42" column="14" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
+              <first_editor relative-caret-position="567">
+                <caret line="96" column="9" selection-start-line="96" selection-start-column="9" selection-end-line="96" selection-end-column="9" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Fibonacci.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/niuke/offer/Fibonacci.java">
+      <file leaf-file-name="NumberOf1.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/niuke/offer/NumberOf1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="6" column="9" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="9" />
+            <state relative-caret-position="648">
+              <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JumpFloorII.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="JumpFloorII.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/niuke/offer/JumpFloorII.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RectCover.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/niuke/offer/RectCover.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="621">
+              <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -130,10 +140,13 @@
         <option value="$PROJECT_DIR$/src/niuke/offer/Find.java" />
         <option value="$PROJECT_DIR$/src/niuke/offer/ReplaceSpace.java" />
         <option value="$PROJECT_DIR$/src/niuke/offer/StackQueue.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/niuke/offer/MinNumberInRotateArray.java" />
         <option value="$PROJECT_DIR$/src/niuke/offer/Fibonacci.java" />
         <option value="$PROJECT_DIR$/src/niuke/offer/JumpFloor.java" />
+        <option value="$PROJECT_DIR$/src/niuke/offer/JumpFloorII.java" />
+        <option value="$PROJECT_DIR$/src/niuke/offer/RectCover.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/niuke/offer/NumberOf1.java" />
       </list>
     </option>
   </component>
@@ -282,7 +295,7 @@
       <workItem from="1562419463619" duration="2820000" />
       <workItem from="1562680589358" duration="599000" />
       <workItem from="1562763315119" duration="2798000" />
-      <workItem from="1562895705888" duration="7055000" />
+      <workItem from="1562895705888" duration="8410000" />
     </task>
     <task id="LOCAL-00001" summary="左旋转字符串">
       <created>1561714943982</created>
@@ -536,11 +549,25 @@
       <option name="project" value="LOCAL" />
       <updated>1562902102949</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="变态跳台阶">
+      <created>1562902861251</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1562902861251</updated>
+    </task>
+    <task id="LOCAL-00038" summary="矩形覆盖">
+      <created>1562903261710</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1562903261710</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56840000" />
+    <option name="totallyTimeSpent" value="58195000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
@@ -608,7 +635,9 @@
     <MESSAGE value="旋转数组的最小数字" />
     <MESSAGE value="斐波那契数列" />
     <MESSAGE value="跳台阶" />
-    <option name="LAST_COMMIT_MESSAGE" value="跳台阶" />
+    <MESSAGE value="变态跳台阶" />
+    <MESSAGE value="矩形覆盖" />
+    <option name="LAST_COMMIT_MESSAGE" value="矩形覆盖" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -894,16 +923,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-81">
-            <caret line="42" column="14" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/niuke/offer/JumpFloor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="529">
@@ -921,7 +940,31 @@
     <entry file="file://$PROJECT_DIR$/src/niuke/offer/JumpFloorII.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/niuke/offer/RectCover.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="567">
+            <caret line="96" column="9" selection-start-line="96" selection-start-column="9" selection-end-line="96" selection-end-column="9" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/niuke/offer/NumberOf1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
         </state>
       </provider>
     </entry>
