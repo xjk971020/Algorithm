@@ -4,9 +4,10 @@ package niuke.offer;
  * author:xjk
  * 2019/6/13 15:32
  * niuke.offer
+ * 斐波那契数列
+ * 题目描述
  * 大家都知道斐波那契数列，现在要求输入一个整数n，请你输出斐波那契数列的第n项（从0开始，第0项为0）。
- * 递归优化
- * 递推
+ * n<=39
  */
 public class Fibonacci {
 
@@ -20,7 +21,7 @@ public class Fibonacci {
 
     /**
      * 递归解法
-     * 使用数组优化
+     * 使用数组优化(类似动态规划)
      * @param n
      * @return
      */
