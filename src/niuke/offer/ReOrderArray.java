@@ -1,7 +1,5 @@
 package niuke.offer;
 
-import java.util.Arrays;
-
 /**
  * @author xjk
  * @date 2019/6/23 -  19:37
@@ -24,13 +22,14 @@ public class ReOrderArray {
         //记录奇数的位置
         int begin = 0;
         int end = array.length;
+        //偶数不动, 找奇数, 每次找到一个奇数就插入到上一次插入的奇数的后一个位置
         for (int i = 0; i < end; ++i) {
             if (array[i] % 2 == 1) {
                 int index = i;
                 while (index > begin) {
-                    int temp = array[index];
-                    array[index] = array[index-1];
-                    array[index-1] = temp;
+                    array[index] = array[index] ^ array[index-1];
+                    array[index-1] = array[index] ^ array[index-1];
+                    array[index] = array[index] ^ array[index-1];
                     index--;
                 }
                 begin++;
