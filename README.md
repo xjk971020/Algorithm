@@ -8,7 +8,7 @@
 
 #### 题目地址
 
-- [https://github.com/xjk971020/Algorithm/blob/master/src/niuke/offer/Find.java]()
+- https://github.com/xjk971020/Algorithm/blob/master/src/niuke/offer/Find.java
 
 ### 2、替换空格
 
@@ -18,7 +18,7 @@
 
 #### 题目地址
 
-- [https://github.com/xjk971020/Algorithm/blob/master/src/niuke/offer/ReplaceSpace.java]()
+- [https://github.com/xjk971020/Algorithm/blob/master/src/niuke/offer/ReplaceSpace.java
 
 ### 3、从尾到头打印链表
 
@@ -28,7 +28,7 @@
 
 #### 题目地址
 
-- [https://github.com/xjk971020/Algorithm/blob/master/src/niuke/offer/PrintListFromTailToHead.java]()
+- https://github.com/xjk971020/Algorithm/blob/master/src/niuke/offer/PrintListFromTailToHead.java
 
 ### 4、重建二叉树
 
@@ -38,7 +38,7 @@
 
 #### 题目地址
 
-- [https://github.com/xjk971020/Algorithm/blob/master/src/niuke/offer/ReConstructBinaryTree.java]()
+- https://github.com/xjk971020/Algorithm/blob/master/src/niuke/offer/ReConstructBinaryTree.java
 
 ### 5、用两个栈实现队列
 
@@ -48,7 +48,7 @@
 
 #### 题目地址
 
-- [https://github.com/xjk971020/Algorithm/blob/master/src/niuke/offer/ReConstructBinaryTree.java]()
+- https://github.com/xjk971020/Algorithm/blob/master/src/niuke/offer/ReConstructBinaryTree.java
 
 ### 6、旋转数组的最小数字
 
@@ -58,7 +58,7 @@
 
 #### 题目地址
 
-- [https://github.com/xjk971020/Algorithm/blob/master/src/niuke/offer/MinNumberInRotateArray.java]()
+- https://github.com/xjk971020/Algorithm/blob/master/src/niuke/offer/MinNumberInRotateArray.java
 
 ### 7、斐波那契数列
 
@@ -68,7 +68,7 @@
 
 #### 题目地址
 
-- [https://github.com/xjk971020/Algorithm/blob/master/src/niuke/offer/Fibonacci.java]()
+- https://github.com/xjk971020/Algorithm/blob/master/src/niuke/offer/Fibonacci.java
 
 ### 8、跳台阶
 
@@ -78,7 +78,7 @@
 
 #### 题目地址
 
-- [https://github.com/xjk971020/Algorithm/blob/master/src/niuke/offer/JumpFloor.java]()
+- https://github.com/xjk971020/Algorithm/blob/master/src/niuke/offer/JumpFloor.java
 
 ### 9、变态跳台阶
 
@@ -88,7 +88,7 @@
 
 #### 题目地址
 
-- [https://github.com/xjk971020/Algorithm/blob/master/src/niuke/offer/JumpFloorII.java]()
+- https://github.com/xjk971020/Algorithm/blob/master/src/niuke/offer/JumpFloorII.java
 
 ### 10、矩形覆盖
 
@@ -98,7 +98,7 @@
 
 #### 题目地址
 
-- [https://github.com/xjk971020/Algorithm/blob/master/src/niuke/offer/RectCover.java]()
+- https://github.com/xjk971020/Algorithm/blob/master/src/niuke/offer/RectCover.java
 
 ### 11、二进制中1的个数
 
@@ -108,7 +108,7 @@
 
 #### 题目地址
 
-- [https://github.com/xjk971020/Algorithm/blob/master/src/niuke/offer/NumberOf1.java]()
+- https://github.com/xjk971020/Algorithm/blob/master/src/niuke/offer/NumberOf1.java
 
 ### 12、数值的整数次方
 
@@ -118,8 +118,7 @@
 
 #### 题目地址
 
-- [https://github.com/xjk971020/Algorithm/blob/master/src/niuke/offer/Power.java]()
-
+- https://github.com/xjk971020/Algorithm/blob/master/src/niuke/offer/Power.java
 ### 13、调整数组顺序使奇数位于偶数前面
 
 #### 题目描述
