@@ -5,7 +5,7 @@ import leetcode.ListNode;
 /**
  * @author xjk
  * @date 2019/6/17 -  17:35
- *
+ * 链表中倒数第k个结点
  * 题目描述
  * 输入一个链表，输出该链表中倒数第k个结点。
  **/

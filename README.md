@@ -18,7 +18,7 @@
 
 #### 题目地址
 
-- [https://github.com/xjk971020/Algorithm/blob/master/src/niuke/offer/ReplaceSpace.java
+- https://github.com/xjk971020/Algorithm/blob/master/src/niuke/offer/ReplaceSpace.java
 
 ### 3、从尾到头打印链表
 
@@ -119,6 +119,7 @@
 #### 题目地址
 
 - https://github.com/xjk971020/Algorithm/blob/master/src/niuke/offer/Power.java
+
 ### 13、调整数组顺序使奇数位于偶数前面
 
 #### 题目描述
@@ -128,4 +129,14 @@
 #### 题目地址
 
 - https://github.com/xjk971020/Algorithm/blob/master/src/niuke/offer/ReOrderArray.java
+
+### 14、链表中倒数第k个结点
+
+#### 题目描述
+
+- 输入一个链表，输出该链表中倒数第k个结点。
+
+#### 题目地址
+
+- https://github.com/xjk971020/Algorithm/blob/master/src/niuke/offer/FindKthToTail.java
 
