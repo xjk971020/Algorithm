@@ -140,5 +140,22 @@
 
 - https://github.com/xjk971020/Algorithm/blob/master/src/niuke/offer/FindKthToTail.java
 
+### 15、反转链表
 
+#### 题目描述
 
+- 输入一个链表，反转链表后，输出新链表的表头。
+
+#### 题目地址
+
+- https://github.com/xjk971020/Algorithm/blob/master/src/niuke/offer/ReverseList.java
+
+### 16、合并两个排序的链表
+
+#### 题目描述
+
+- 输入两个单调递增的链表，输出两个链表合成后的链表，当然我们需要合成后的链表满足单调不减规则。
+
+#### 题目地址
+
+- https://github.com/xjk971020/Algorithm/blob/master/src/niuke/offer/Merge.java
