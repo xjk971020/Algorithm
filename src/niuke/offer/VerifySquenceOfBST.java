@@ -10,6 +10,13 @@ package niuke.offer;
  * 假设输入的数组的任意两个数字都互不相同
  **/
 public class VerifySquenceOfBST {
+    /**
+     * 利用二叉搜索树的特点
+     * 后序遍历最后一个节点为根节点, 然后往前遍历找到左子树和右子树的节点
+     * 递归
+     * @param sequence
+     * @return
+     */
     public boolean verifySquenceOfBST(int[] sequence) {
         if (sequence == null || sequence.length == 0) {
             return false;
@@ -34,11 +41,5 @@ public class VerifySquenceOfBST {
             }
         }
         return process(sequence, start, i - 1) && process(sequence, i, root - 1);
-    }
-
-    public static void main(String[] args) {
-        VerifySquenceOfBST verifySquenceOfBST = new VerifySquenceOfBST();
-        int[] arr = {5,7,6,9,11,10,8,4,7,2};
-        System.out.println(verifySquenceOfBST.verifySquenceOfBST(arr));
     }
 }
