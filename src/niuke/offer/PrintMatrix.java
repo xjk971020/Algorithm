@@ -13,55 +13,57 @@ import java.util.Arrays;
  * 则依次打印出数字1,2,3,4,8,12,16,15,14,13,9,5,6,7,11,10.
  **/
 public class PrintMatrix {
+    /**
+     * 从外到里一圈一圈打印
+     * 四个角为边界
+     * @param matrix
+     * @return
+     */
     public ArrayList<Integer> printMatrix(int[][] matrix) {
         int a = 0;
         int b = 0;
         int c = matrix[0].length - 1;
         int d = matrix.length - 1;
-        ArrayList<Integer> list = new ArrayList<Integer>();
+        ArrayList<Integer> result = new ArrayList<>();
         while ((a <= d) && (b <= c)) {
-            getList(matrix,a++,b++,c--,d--,list);
+            getResult(a++, b++ ,c--, d--, result, matrix);
         }
-        return list;
+        return result;
     }
-    private void getList(int[][] matrix,int a,int b,int c,int d,ArrayList<Integer> list) {
+
+    /**
+     * 打印过程
+     * @param a
+     * @param b
+     * @param c
+     * @param d
+     * @param result
+     * @param matrix
+     */
+    private void getResult(int a, int b, int c, int d, ArrayList<Integer> result, int[][] matrix) {
         if (a == d) {
-            for (int i = b; i <= c; i++) {
-                list.add(matrix[a][i]);
+            for (;b <= c; ++b) {
+                result.add(matrix[a][b]);
             }
-        }else if (b == c) {
-            for (int i = a; i <= d; i++) {
-                list.add(matrix[i][b]);
+        } else if (b == c) {
+            for (;a <= d; ++a) {
+                result.add(matrix[a][b]);
             }
         } else {
             int curHeng = b;
             int curShu = a;
             while (curHeng != c) {
-                list.add(matrix[curShu][curHeng]);
-                curHeng++;
+                result.add(matrix[curShu][curHeng++]);
             }
             while (curShu != d) {
-                list.add(matrix[curShu][curHeng]);
-                curShu++;
+                result.add(matrix[curShu++][curHeng]);
             }
-            while (curHeng != a) {
-                list.add(matrix[curShu][curHeng]);
-                curHeng--;
+            while (curHeng != b) {
+                result.add(matrix[curShu][curHeng--]);
             }
-            while (curShu != b) {
-                list.add(matrix[curShu][curHeng]);
-                curShu--;
+            while (curShu != a) {
+                result.add(matrix[curShu--][curHeng]);
             }
         }
-
-    }
-
-    public static void main(String[] args) {
-        int[][] matrix = {{1}, {2}, {3}, {4}, {5}};
-        for (int i = 0; i < matrix.length; i++) {
-            System.out.println(Arrays.toString(matrix[i]));
-        }
-        PrintMatrix printMatrix = new PrintMatrix();
-        System.out.println(printMatrix.printMatrix(matrix));
     }
 }
