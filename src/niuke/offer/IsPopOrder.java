@@ -12,16 +12,19 @@ import java.util.Stack;
  * 但4,3,5,1,2就不可能是该压栈序列的弹出序列。（注意：这两个序列的长度是相等的）
  **/
 public class IsPopOrder {
-    public static boolean solution(int[] pushs,int[] pops) {
+    public static boolean isPopOrder(int[] pushs,int[] pops) {
         if (pushs.length == 0 && pops.length == 0) {
             return true;
         }
         Stack<Integer> help = new Stack<>();
+        //用于标识弹出序列的位置
         int popIndex = 0;
-        for (int i = 0; i < pushs.length; i++) {
-            help.push(pushs[i]);
+        for (int push : pushs) {
+            help.push(push);
+            //如果栈不为空，且栈顶元素等于弹出序列
             while (!help.isEmpty() && help.peek() == pops[popIndex]) {
                 help.pop();
+                //弹出序列向后一位
                 popIndex++;
             }
         }
