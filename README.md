@@ -311,7 +311,7 @@
 
 #### 题目地址
 
-- 
+- https://github.com/xjk971020/Algorithm/blob/master/src/niuke/offer/GetLeastNumbers.java
 
 ### 31、连续子数组的最大和
 
@@ -487,4 +487,4 @@
 
 #### 题目地址
 
-- 
+- https://github.com/xjk971020/Algorithm/blob/master/src/niuke/offer/LeftRotateString.java
