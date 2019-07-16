@@ -13,22 +13,44 @@ package niuke.offer;
  * 给一个数组，返回它的最大连续子序列的和，你会不会被他忽悠住？(子向量的长度至少是1)
  */
 public class FindGreatestSumOfSubArray {
+    /**
+     * 算法时间复杂度O（n）
+     * 用total记录累计值，maxSum记录和最大
+     * 基于思想：对于一个数A，若是A的左边累计数非负，那么加上A能使得值不小于A，认为累计值对
+     *           整体和是有贡献的。如果前几项累计值负数，则认为有害于总和，total记录当前值。
+     *           此时 若和大于maxSum 则用maxSum记录下来
+     * @param array
+     * @return
+     */
     public int findGreatestSumOfSubArray(int[] array) {
         if (array == null || array.length == 0) {
             return 0;
         }
         int num = 0;
-        int maxNum = 0x80000000;
-        for (int i = 0; i < array.length; ++i) {
+        int maxNum = Integer.MIN_VALUE;
+        for (int anArray : array) {
             if (num <= 0) {
-                num = array[i];
+                num = anArray;
             } else {
-                num += array[i];
+                num += anArray;
             }
             if (num > maxNum) {
                 maxNum = num;
             }
         }
         return maxNum;
+    }
+
+    public int findGreatestSumOfSubArray_(int[] array) {
+        if (array == null || array.length == 0) {
+            return 0;
+        }
+        int num = array[0];
+        int max = array[0];
+        for (int i = 1; i < array.length; ++i) {
+            num = Math.max(array[i], num + array[i]);
+            max = Math.max(max, num);
+        }
+        return max;
     }
 }
