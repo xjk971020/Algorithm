@@ -11,6 +11,12 @@ package niuke.offer;
  * 是不是很简单？OK，搞定它！
  */
 public class LeftRotateString {
+    /**
+     * 记住本题的规律, 先将n位置及n位置前的字符串和n位置后的字符串交换,再交换整个字符串即得出结果
+     * @param str
+     * @param n
+     * @return
+     */
     public String leftRotateString(String str,int n) {
         if (n < 0) {
             throw new RuntimeException("n不能小于0");
