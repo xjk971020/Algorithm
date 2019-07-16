@@ -245,7 +245,7 @@
 
 #### 题目地址
 
-- 
+- https://github.com/xjk971020/Algorithm/blob/master/src/niuke/offer/VerifySquenceOfBST.java
 
 ### 24、二叉树中和为某一值的路径
 
