@@ -245,7 +245,7 @@
 
 #### 题目地址
 
-- 
+- https://github.com/xjk971020/Algorithm/blob/master/src/niuke/offer/VerifySquenceOfBST.java
 
 ### 24、二叉树中和为某一值的路径
 
@@ -321,7 +321,7 @@
 
 #### 题目地址
 
-- 
+- https://github.com/xjk971020/Algorithm/blob/master/src/niuke/offer/FindGreatestSumOfSubArray.java
 
 ### 32、整数中1出现的次数（从1到n整数中1出现的次数）
 
@@ -341,7 +341,7 @@
 
 #### 题目地址
 
-- 
+- https://github.com/xjk971020/Algorithm/blob/master/src/niuke/offer/PrintMinNumber.java
 
 ### 34、丑数
 
