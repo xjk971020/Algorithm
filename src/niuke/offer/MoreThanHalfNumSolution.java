@@ -11,34 +11,32 @@ package niuke.offer;
  * 由于数字2在数组中出现了5次，超过数组长度的一半，因此输出2。如果不存在则输出0。
  */
 public class MoreThanHalfNumSolution {
-   public int MoreThanHalfNum_Solution(int [] array) {
+    public int moreThanHalfNumSolution(int[] array) {
         if (array == null || array.length == 0) {
             return 0;
         }
         int times = 1;
-        int result =  array[0];
+        int curNum = array[0];
         for (int i = 1; i < array.length; ++i) {
-            if (times == 0) {
-                result = array[i];
-                times = 1;
+            if (array[i] == curNum) {
+                times++;
             } else {
-                if (array[i] == result) {
-                    times++;
+                if (times == 0) {
+                    curNum = array[i];
                 } else {
                     times--;
                 }
             }
         }
         times = 0;
-        for (int i = 0; i < array.length; ++i) {
-            if (array[i] == result) {
+        for (int anArray : array) {
+            if (anArray == curNum) {
                 times++;
             }
         }
-        if (times * 2 > array.length) {
-            return result;
-        } else {
-           return 0; 
+        if (times > array.length / 2) {
+            return curNum;
         }
+        return 0;
     }
 }
