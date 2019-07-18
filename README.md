@@ -275,7 +275,7 @@
 
 #### 题目地址
 
-- 
+- https://github.com/xjk971020/Algorithm/blob/master/src/niuke/offer/Convert.java
 
 ### 28、字符串的排列
 
@@ -301,7 +301,7 @@
 
 #### 题目地址
 
-- 
+- https://github.com/xjk971020/Algorithm/blob/master/src/niuke/offer/MoreThanHalfNumSolution.java
 
 ### 30、最小的K个数
 
@@ -403,6 +403,10 @@
 
 - 输入两个链表，找出它们的第一个公共结点。
 
+#### 题目遗留问题
+
+- <font color="red">如何使用递归解决,还未实现</font>
+
 #### 题目地址
 
 - https://github.com/xjk971020/Algorithm/blob/master/src/niuke/offer/FindFirstCommonNode.java
@@ -412,6 +416,10 @@
 #### 题目描述
 
 - 统计一个数字在排序数组中出现的次数。
+
+#### 题目遗留问题
+
+- <font color="red">如何使用二分查找,还未实现</font>
 
 #### 题目地址
 
@@ -435,7 +443,7 @@
 
 #### 题目地址
 
-- 
+- https://github.com/xjk971020/Algorithm/blob/master/src/niuke/offer/IsBalancedSolution.java
 
 ### 41、数组中只出现一次的数字
 
