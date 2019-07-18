@@ -1,6 +1,8 @@
 package niuke.offer;
 
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * @author:xjk 2019/7/17 11:32
@@ -10,6 +12,12 @@ import java.util.ArrayList;
  * 一个整型数组里除了两个数字之外，其他的数字都出现了两次。请写程序找出这两个只出现一次的数字。
  */
 public class FindNumsAppearOnce {
+    /**
+     * 先将数组排序,在遍历一遍数组
+     * @param array
+     * @param num1
+     * @param num2
+     */
     public void findNumsAppearOnce(int [] array,int num1[] , int num2[]) {
         if (array == null || array.length < 2) {
             throw new RuntimeException("数组不能为空或长度不能小于2");
@@ -65,4 +73,40 @@ public class FindNumsAppearOnce {
         array[i] = array[j];
         array[j] = temp;
     }
+
+    /**
+     * 哈希表实现
+     * @param array
+     * @param num1
+     * @param num2
+     */
+    public void findNumsAppearOnce_(int [] array,int num1[] , int num2[]) {
+        if (array == null || array.length < 2) {
+            throw new RuntimeException("数组不能为空或长度不能小于2");
+        }
+        if (array.length == 2) {
+            num1[0] = array[0];
+            num2[0] = array[1];
+            return;
+        }
+        HashMap<Integer,Integer> data = new HashMap<>();
+        for (int anArray : array) {
+            if (data.containsKey(anArray)) {
+                data.put(anArray,2);
+            } else {
+                data.put(anArray,1);
+            }
+        }
+        num1[0] = 0;
+        for (Map.Entry<Integer, Integer> entry:data.entrySet()) {
+            if (entry.getValue() == 1) {
+                if (num1[0] == 0) {
+                    num1[0] = entry.getKey();
+                } else {
+                    num2[0] = entry.getKey();
+                }
+            }
+        }
+    }
+
 }
