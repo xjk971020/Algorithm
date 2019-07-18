@@ -405,7 +405,7 @@
 
 #### 题目地址
 
-- 
+- https://github.com/xjk971020/Algorithm/blob/master/src/niuke/offer/FindFirstCommonNode.java
 
 ### 38、数字在排序数组中出现的次数
 
@@ -415,7 +415,7 @@
 
 #### 题目地址
 
-- 
+- https://github.com/xjk971020/Algorithm/blob/master/src/niuke/offer/GetNumberOfK.java
 
 ### 39、二叉树的深度
 
@@ -477,7 +477,7 @@
 
 #### 题目地址
 
-- 
+- https://github.com/xjk971020/Algorithm/blob/master/src/niuke/offer/FindNumbersWithSum.java
 
 ### 44、左旋转字符串
 
