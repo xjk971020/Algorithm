@@ -1,14 +1,19 @@
 package niuke.offer;
 
-import java.util.Arrays;
-
 /**
  * @author xjk
  * @date 2019/6/17 -  17:56
+ * 数字在排序数组中出现的次数
  * 题目描述
  * 统计一个数字在排序数组中出现的次数。
  **/
 public class GetNumberOfK {
+    /**
+     * 思路:从前往后找, 从后往前找
+     * @param array
+     * @param k
+     * @return
+     */
     public static int getNumberOfK(int [] array , int k) {
         int pre = 0;
         int hail = array.length - 1;
@@ -25,19 +30,6 @@ public class GetNumberOfK {
                 break;
             }
         }
-        int count = hail - pre + 1;
-        return count;
-    }
-
-    public static void main(String[] args) {
-        int[] arr = new int[10];
-        for (int i = 0; i < arr.length; i++) {
-
-            arr[i] = (int) (Math.random() * 10);
-        }
-//        arr[6] = 5;
-        Arrays.sort(arr);
-        System.out.println(Arrays.toString(arr));
-        System.out.println(GetNumberOfK.getNumberOfK(arr, 10));
+        return hail - pre + 1;
     }
 }
