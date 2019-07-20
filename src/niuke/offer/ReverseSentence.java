@@ -21,6 +21,11 @@ public class ReverseSentence {
         int blank = -1;
         int nextBlank;
         int count = 0;
+        /**
+         * 需考虑两种情况:
+         * 第一种: 整个字符串都没有空格的情况
+         * 第二种: 最后一个不是字符串的情况
+         */
         for (int i = 0; i <= chars.length; ++i) {
             if (chars[i] == ' ' || i == chars.length) {
                 count++;
