@@ -17,6 +17,11 @@ import java.util.Arrays;
  * 为了方便起见,你可以认为大小王是0。
  */
 public class IsContinuous {
+    /**
+     * 循环两次,先计算出有多少个0，在计算0的个数能不能补全数组中的差距
+     * @param numbers
+     * @return
+     */
     public boolean isContinuous(int [] numbers) {
         if (numbers == null || numbers.length < 5) {
             return false;
