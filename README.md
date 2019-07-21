@@ -515,7 +515,7 @@
 
 #### 题目地址
 
-- 
+- https://github.com/xjk971020/Algorithm/blob/master/src/niuke/offer/IsContinuous.java
 
 ### 47、孩子们的游戏(圆圈中最后剩下的数)
 
