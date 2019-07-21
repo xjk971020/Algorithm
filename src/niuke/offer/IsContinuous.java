@@ -45,4 +45,40 @@ public class IsContinuous {
         }
         return true;
     }
+
+    /**
+     * 满足条件
+     * 1 max - min <5
+     * 2 除0外没有重复的数字(牌)
+     * @param numbers
+     * @return
+     */
+    public boolean isContinuous_(int[] numbers) {
+        if (numbers == null || numbers.length == 0) {
+            return false;
+        }
+        //申请一个辅助数组, 判断每个数出现的次数, 如果次数超过1, 则说明出现了对子
+        int[] help = new int[14];
+        int max = -1;
+        int min = 14;
+        for (int number : numbers) {
+            help[number]++;
+            if (number == 0) {
+                continue;
+            }
+            if (help[number] > 1) {
+                return false;
+            }
+            if (max < number) {
+                max = number;
+            }
+            if (min > number) {
+                min = number;
+            }
+        }
+        if (max - min < 5) {
+            return true;
+        }
+        return false;
+    }
 }
