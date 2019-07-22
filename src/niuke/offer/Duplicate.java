@@ -24,14 +24,14 @@ public class Duplicate {
         if (numbers == null || numbers.length == 0) {
             return false;
         }
-        int[] temp = new int[length];
-        for (int i = 0; i < numbers.length; i++) {
-            if (temp[numbers[i]] == 0) {
-                temp[numbers[i]]++;
-            } else {
+        //使用辅助数组确定每个数出现的次数
+        boolean[] help = new boolean[length];
+        for (int i = 0; i < length; ++i) {
+            if (help[numbers[i]] == true) {
                 duplication[0] = numbers[i];
                 return true;
             }
+            help[numbers[i]] = true;
         }
         return false;
     }
