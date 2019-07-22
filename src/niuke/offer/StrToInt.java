@@ -28,7 +28,7 @@ public class StrToInt {
                 return 0;
             }
             int temp = sum * 10 + chars[i] - 48;
-            //判断是否大小是否溢出
+            //要先判断是否大小是否溢出，整数溢出时值为-2147483647
             if ((temp - chars[i] + 48)/10 != sum) {
                 return 0;
             }
@@ -38,5 +38,10 @@ public class StrToInt {
             sum = (int)Math.pow(-1, first) * sum;
         }
         return sum;
+    }
+
+    public static void main(String[] args) {
+        StrToInt strToInt = new StrToInt();
+        strToInt.StrToInt("123");
     }
 }
