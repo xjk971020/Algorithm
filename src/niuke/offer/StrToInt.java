@@ -10,7 +10,7 @@ package niuke.offer;
  * 数值为0或者字符串不是一个合法的数值则返回0。
  */
 public class StrToInt {
-    public int StrToInt(String str) {
+    public int strToInt(String str) {
         if (str == null || str.length() == 0) {
             return 0;
         }
@@ -40,8 +40,4 @@ public class StrToInt {
         return sum;
     }
 
-    public static void main(String[] args) {
-        StrToInt strToInt = new StrToInt();
-        strToInt.StrToInt("123");
-    }
 }
