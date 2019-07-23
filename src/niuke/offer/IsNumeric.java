@@ -28,6 +28,7 @@ public class IsNumeric {
                 if (signal && str[i - 1] != 'E' && str[i - 1] != 'e') {
                     return false;
                 }
+                //处理 1+23 这种数据
                 if (!signal && i>0 && str[i-1] != 'E' && str[i-1] != 'e') {
                     return false;
                 }
@@ -40,6 +41,7 @@ public class IsNumeric {
                     return false;
                 }
                 decimal = true;
+                //str[i] > 57 || str[i] < 48
             } else if(str[i] < '0' || str[i] > '9'){
                 //不是e也不是+-符号也不是小数点，那么只能是数字，不是数字就是非法的字符
                 return false;
