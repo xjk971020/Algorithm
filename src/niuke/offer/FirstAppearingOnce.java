@@ -11,6 +11,7 @@ package niuke.offer;
  */
 public class FirstAppearingOnce {
 
+    //申请一个辅助数组计算每个字符出现的次数
     private int[] charCount;
     private StringBuffer stringBuffer;
 
