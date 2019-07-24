@@ -676,3 +676,23 @@
 #### 题目地址
 
 - https://github.com/xjk971020/Algorithm/blob/master/src/niuke/offer/PrintZhi.java
+
+### 60、把二叉树打印成多行
+
+#### 题目描述
+
+- 从上到下按层打印二叉树，同一层结点从左至右输出。每一层输出一行。
+
+#### 题目地址
+
+- https://github.com/xjk971020/Algorithm/blob/master/src/niuke/offer/Print.java
+
+### 61、序列化二叉树
+
+#### 题目描述
+
+- 请实现两个函数，分别用来序列化和反序列化二叉树
+
+#### 题目地址
+
+- https://github.com/xjk971020/Algorithm/blob/master/src/niuke/offer/
