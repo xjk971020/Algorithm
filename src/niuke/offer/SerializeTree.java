@@ -1,5 +1,8 @@
 package niuke.offer;
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 /**
  * @Author:xjk
  * @Date 2019/7/24 21:57
@@ -9,9 +12,31 @@ package niuke.offer;
  */
 public class SerializeTree {
     public String Serialize(TreeNode root) {
-        return null;
+        if (root == null) {
+            return "#!";
+        }
+        String str = root.val + "!";
+        str = str + Serialize(root.left);
+        str = str + Serialize(root.right);
+        return str;
     }
     public TreeNode Deserialize(String str) {
-        return null;
+        String[] strs = str.split("!");
+        Queue<String> queue = new LinkedList<>();
+        for (String s : strs) {
+            queue.add(s);
+        }
+        return reDeserialize(queue);
+    }
+
+    private TreeNode reDeserialize(Queue<String> queue) {
+        String s = queue.poll();
+        if (s.equals("#")) {
+            return null;
+        }
+        TreeNode root = new TreeNode(Integer.valueOf(s));
+        root.left = reDeserialize(queue);
+        root.right = reDeserialize(queue);
+        return root;
     }
 }
