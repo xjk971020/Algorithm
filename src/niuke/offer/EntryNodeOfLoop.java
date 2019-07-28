@@ -1,7 +1,5 @@
 package niuke.offer;
 
-import leetcode.ListNode;
-
 /**
  * @Author:xjk
  * @Date 2019/6/28 20:28
@@ -15,24 +13,18 @@ public class EntryNodeOfLoop {
         if (meetingNode == null) {
             return null;
         }
-        ListNode temp = meetingNode;
-        int count = 1;
-        while (temp.next != meetingNode) {
-            ++count;
-            temp = temp.next;
+        while (meetingNode != pHead) {
+            meetingNode = meetingNode.next;
+            pHead = pHead.next;
         }
-        ListNode indexTemp = pHead;
-        for (int i = 0; i < count; ++i) {
-            indexTemp = indexTemp.next;
-        }
-        ListNode headTemp = pHead;
-        while (indexTemp != headTemp) {
-            indexTemp = indexTemp.next;
-            headTemp = headTemp.next;
-        }
-        return indexTemp;
+        return meetingNode;
     }
 
+    /**
+     * 找出快慢指针相遇的节点
+     * @param pHead
+     * @return
+     */
     private ListNode meetingNode(ListNode pHead) {
         if (pHead == null) {
             return null;
@@ -56,9 +48,37 @@ public class EntryNodeOfLoop {
         return null;
     }
 
-    public static void main(String[] args) {
-        ListNode node = new ListNode(1);
-        EntryNodeOfLoop entryNodeOfLoop = new EntryNodeOfLoop();
-        System.out.println(entryNodeOfLoop.entryNodeOfLoop(node));
+    /**
+     * 时间复杂度为O（n），两个指针，一个在前面，另一个紧邻着这个指针，在后面。
+     * 两个指针同时向前移动，每移动一次，前面的指针的next指向NULL。
+     * 也就是说：访问过的节点都断开，最后到达的那个节点一定是尾节点的下一个，
+     * 也就是循环的第一个。
+     * 这时候已经是第二次访问循环的第一节点了，第一次访问的时候我们已经让它指向了NULL，
+     * 所以到这结束。
+     * @param pHead
+     * @return
+     */
+    ListNode entryNodeOfLoop_(ListNode pHead) {
+        if (pHead == null) {
+            return null;
+        }
+        ListNode pre = pHead;
+        ListNode next = pHead;
+        while (next.next != null && next.next.next != null) {
+            pre = pre.next;
+            next = next.next.next;
+            if (pre == next) {
+                next = pHead;
+                while (pre != next) {
+                    next = next.next;
+                    pre = pre.next;
+                }
+                //这个判断必须放在while后面，不然当第一个节点是环的入口节点的时候，会出现死循环
+                if (next == pre) {
+                    return pre;
+                }
+            }
+        }
+        return null;
     }
 }
