@@ -625,8 +625,6 @@
 
 - https://github.com/xjk971020/Algorithm/blob/master/src/niuke/offer/FirstAppearingOnce
 
-
-
 ### 55、链表中环的入口结点
 
 #### 题目描述
@@ -635,7 +633,7 @@
 
 #### 题目地址
 
-- 
+- https://github.com/xjk971020/Algorithm/blob/master/src/niuke/offer/EntryNodeOfLoop.java
 
 ### 56、删除链表中重复的结点
 
