@@ -13,15 +13,15 @@ package niuke.offer;
  */
 public class MovingCount {
     public int movingCount(int threshold, int rows, int cols) {
-        int[][] flag = new int[rows][cols];
+        boolean[][] flag = new boolean[rows][cols];
         return helper(0, 0, rows, cols, flag, threshold);
     }
 
-    private int helper(int i, int j, int rows, int cols, int[][] flag, int threshold) {
-        if (i < 0 || i >= rows || j < 0 || j >= cols || sum(i) + sum(j) > threshold || flag[i][j] == 1) {
+    private int helper(int i, int j, int rows, int cols, boolean[][] flag, int threshold) {
+        if (i < 0 || i >= rows || j < 0 || j >= cols || sum(i) + sum(j) > threshold || flag[i][j]) {
             return 0;
         }
-        flag[i][j] = 1;
+        flag[i][j] = true;
         return helper(i + 1, j, rows, cols, flag, threshold)
                 + helper(i - 1, j, rows, cols, flag, threshold)
                 + helper(i, j + 1, rows, cols, flag, threshold)
