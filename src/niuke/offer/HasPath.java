@@ -17,6 +17,9 @@ package niuke.offer;
                 || str.length > matrix.length) {
                 return false;
             }
+          /**
+           * 用一个状态数组保存之前访问过的字符，然后再分别按上，下，左，右递归
+           */
             boolean[] flag = new boolean[matrix.length];
             for (int i = 0; i < rows; ++i) {
                 for (int j = 0; j < cols; ++j) {
