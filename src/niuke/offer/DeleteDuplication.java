@@ -15,7 +15,7 @@ public class DeleteDuplication {
         }
         ListNode head = new ListNode(-1);
         head.next = pHead;
-        //设置 pre ，last 指针， pre指针指向当前确定不重复的那个节点，而last指针相当于工作指针，一直往后面搜索。
+        //设置 pre ，next 指针， pre指针指向当前确定不重复的那个节点，而next指针相当于工作指针，一直往后面搜索。
         ListNode pre = head;
         ListNode next = head.next;
         while (next != null) {
