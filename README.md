@@ -291,7 +291,7 @@
 
 #### 题目地址
 
-- 
+- https://github.com/xjk971020/Algorithm/blob/master/src/niuke/offer/Permutation.java
 
 ### 29、数组中出现次数超过一半的数字
 
@@ -723,7 +723,7 @@
 
 #### 题目地址
 
-- 
+- https://github.com/xjk971020/Algorithm/blob/master/src/niuke/offer/MaxInWindows.java
 
 ### 65、 矩阵中的路径
 
