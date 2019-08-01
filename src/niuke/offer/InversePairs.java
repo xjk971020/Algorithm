@@ -11,56 +11,51 @@ package niuke.offer;
  * 即输出P%1000000007
  **/
 public class InversePairs {
-
+    private int count;
+    public InversePairs() {
+        count = 0;
+    }
     public int inversePairs(int [] array) {
-        if (array == null || array.length == 0 || array.length == 1) {
+        if (array == null || array.length <= 1) {
             return 0;
         }
-        return merge(array, 0, array.length - 1);
-    }
-
-    private int merge(int[] array, int start, int end) {
-        if (start == end ) {
-            return 0;
-        }
-        int mid = (start + end)/2;
-        return merge(array, start, mid) +
-                merge(array, mid + 1, end) +
-                mergeProcess(array, start, mid, end);
-    }
-
-    private int mergeProcess(int[] array, int start, int mid, int end) {
-        int[] temp = new int[end - start + 1];
-        int index = 0;
-        int i = start;
-        int j = mid + 1;
-        int count = 0;
-        while (i <= mid && j <= end) {
-            if (array[i] <= array[j] ) {
-                temp[index++] = array[i++];
-            } else {
-                temp[index++] = array[j++];
-                count = count + mid - i + 1;
-                if (count >= 1000000007) {
-                    count = count % 1000000007;
-                }
-            }
-        }
-        while (i <= mid) {
-            temp[index++] = array[i++];
-        }
-        while (j <= end) {
-            temp[index++] = array[j++];
-        }
-        for (int k = 0; k < temp.length; ++k) {
-            array[start + k] = temp[k];
-        }
+        process(array, 0, array.length - 1);
         return count;
     }
 
-    public static void main(String[] args) {
-        int[] arr = {1,2,3,4,5,6,7,1,0};
-        InversePairs inversePairs = new InversePairs();
-        System.out.println(inversePairs.inversePairs(arr));
+    private void process(int[] array, int start, int end) {
+        if (start >= end) {
+            return;
+        }
+        int mid = (start + end)>>1;
+        process(array, start, mid);
+        process(array, mid+1, end);
+        merge(array, start, mid, end);
+
+    }
+
+    private void merge(int[] array, int start, int mid, int end) {
+        int[] help = new int[end-start+1];
+        int i = 0;
+        int p1 = start;
+        int p2 = mid + 1;
+        while (p1 <= mid && p2 <= end) {
+            if (array[p1] > array[p2]) {
+                count = count + mid - p1 + 1;
+                if (count > 1000000007) {
+                    count = count % 1000000007;
+                }
+                help[i++] = array[p2++];
+            } else {
+                help[i++] = array[p1++];
+            }
+        }
+        while (p1 <= mid) {
+            help[i++] = array[p1++];
+        }
+        while (p2 <= end) {
+            help[i++] = array[p2++];
+        }
+        System.arraycopy(help, 0, array, start, help.length);
     }
 }
