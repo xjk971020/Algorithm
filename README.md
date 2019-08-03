@@ -48,7 +48,7 @@
 
 #### 题目地址
 
-- https://github.com/xjk971020/Algorithm/blob/master/src/niuke/offer/ReConstructBinaryTree.java
+- https://github.com/xjk971020/Algorithm/blob/master/src/niuke/offer/StackQueue.java
 
 ### 6、旋转数组的最小数字
 
