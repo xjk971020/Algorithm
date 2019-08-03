@@ -351,7 +351,7 @@
 
 #### 题目地址
 
-- 
+- https://github.com/xjk971020/Algorithm/blob/master/src/niuke/offer/UglyNumber.java
 
 ### 35、第一个只出现一次的字符
 
@@ -395,7 +395,7 @@
 
 #### 题目地址
 
-- 
+- https://github.com/xjk971020/Algorithm/blob/master/src/niuke/offer/InversePairs.java
 
 ### 37、两个链表的第一个公共结点
 
