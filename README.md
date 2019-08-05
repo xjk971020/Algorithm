@@ -607,7 +607,7 @@
 
 #### 题目地址
 
-- https://github.com/xjk971020/Algorithm/blob/master/src/niuke/offer/IsNumeric
+- https://github.com/xjk971020/Algorithm/blob/master/src/niuke/offer/IsNumeric.java
 
 ### 54、字符流中第一个不重复的字符
 
@@ -623,7 +623,7 @@
 
 #### 题目地址
 
-- https://github.com/xjk971020/Algorithm/blob/master/src/niuke/offer/FirstAppearingOnce
+- https://github.com/xjk971020/Algorithm/blob/master/src/niuke/offer/FirstAppearingOnce.java
 
 ### 55、链表中环的入口结点
 
