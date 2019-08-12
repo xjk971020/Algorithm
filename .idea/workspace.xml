@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c3071817-7553-4b6e-8e93-2ff7f79e3730" name="Default Changelist" comment="update">
+    <list default="true" id="c3071817-7553-4b6e-8e93-2ff7f79e3730" name="Default Changelist" comment="机器人的运动范围">
+      <change afterPath="$PROJECT_DIR$/src/niuke/zhenti/ShuDui.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/niuke/zhenti/YouXuJuZhenDiKXIaoYuanSu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/niuke/zhenti/YuanGongKaoQinJiLu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,42 +18,47 @@
     <session id="-315903849">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="17" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.4" value="5" />
-          <entry key="project.open.time.5" value="3" />
-          <entry key="project.open.time.6" value="5" />
-          <entry key="project.open.time.7" value="2" />
-          <entry key="project.opened" value="18" />
+          <entry key="project.closed" value="45" />
+          <entry key="project.open.time.0" value="3" />
+          <entry key="project.open.time.10" value="2" />
+          <entry key="project.open.time.2" value="3" />
+          <entry key="project.open.time.3" value="3" />
+          <entry key="project.open.time.4" value="6" />
+          <entry key="project.open.time.5" value="7" />
+          <entry key="project.open.time.6" value="11" />
+          <entry key="project.open.time.7" value="8" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="46" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="36" />
-          <entry key="md" value="9" />
+          <entry key="Palindrome" value="1" />
+          <entry key="java" value="76" />
+          <entry key="md" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="36" />
-          <entry key="Markdown" value="9" />
+          <entry key="JAVA" value="76" />
+          <entry key="Markdown" value="16" />
+          <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="ft" value="42" />
-          <entry key="java" value="8195" />
-          <entry key="md" value="183" />
-          <entry key="txt" value="94" />
+          <entry key="java" value="16198" />
+          <entry key="md" value="306" />
+          <entry key="txt" value="142" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="8195" />
-          <entry key="Markdown" value="183" />
-          <entry key="PLAIN_TEXT" value="94" />
+          <entry key="JAVA" value="16198" />
+          <entry key="Markdown" value="306" />
+          <entry key="PLAIN_TEXT" value="142" />
           <entry key="VTL" value="42" />
         </counts>
       </usages-collector>
@@ -59,14 +66,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="432">
-                <caret line="478" lean-forward="true" selection-start-line="478" selection-end-line="478" />
-              </first_editor>
-              <second_editor />
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/niuke/zhenti/ShuDui.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/niuke/zhenti/YouXuJuZhenDiKXIaoYuanSu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="410">
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/niuke/zhenti/YuanGongKaoQinJiLu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="310">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
@@ -92,31 +117,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/niuke/offer/FindContinuousSequence.java" />
-        <option value="$PROJECT_DIR$/src/niuke/offer/LeftRotateString.java" />
-        <option value="$PROJECT_DIR$/src/niuke/offer/EntryNodeOfLoop.java" />
-        <option value="$PROJECT_DIR$/src/niuke/offer/DeleteDuplication.java" />
-        <option value="$PROJECT_DIR$/src/niuke/offer/DeleteNodeInList.java" />
-        <option value="$PROJECT_DIR$/src/niuke/offer/FirstAppearingOnce.java" />
-        <option value="$PROJECT_DIR$/src/niuke/offer/Multiply.java" />
-        <option value="$PROJECT_DIR$/src/niuke/offer/ReverseSentence.java" />
-        <option value="$PROJECT_DIR$/src/niuke/offer/IsContinuous.java" />
-        <option value="$PROJECT_DIR$/src/niuke/offer/KthNode.java" />
-        <option value="$PROJECT_DIR$/src/niuke/offer/StrToInt.java" />
-        <option value="$PROJECT_DIR$/src/niuke/offer/IsNumeric.java" />
-        <option value="$PROJECT_DIR$/src/niuke/offer/PrintListFromTailToHead.java" />
-        <option value="$PROJECT_DIR$/src/niuke/offer/PrintMinNumber.java" />
-        <option value="$PROJECT_DIR$/src/niuke/offer/MovingCount.java" />
-        <option value="$PROJECT_DIR$/src/niuke/offer/Match.java" />
-        <option value="$PROJECT_DIR$/src/niuke/offer/Find.java" />
-        <option value="$PROJECT_DIR$/src/niuke/offer/ReplaceSpace.java" />
         <option value="$PROJECT_DIR$/src/niuke/offer/StackQueue.java" />
         <option value="$PROJECT_DIR$/src/niuke/offer/MinNumberInRotateArray.java" />
         <option value="$PROJECT_DIR$/src/niuke/offer/Fibonacci.java" />
         <option value="$PROJECT_DIR$/src/niuke/offer/JumpFloor.java" />
         <option value="$PROJECT_DIR$/src/niuke/offer/JumpFloorII.java" />
         <option value="$PROJECT_DIR$/src/niuke/offer/RectCover.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/niuke/offer/NumberOf1.java" />
         <option value="$PROJECT_DIR$/src/niuke/offer/HasSubtree.java" />
         <option value="$PROJECT_DIR$/src/niuke/offer/Mirror.java" />
@@ -126,6 +132,42 @@
         <option value="$PROJECT_DIR$/src/niuke/offer/IsPopOrder.java" />
         <option value="$PROJECT_DIR$/src/niuke/offer/PrintFromTopToBottom.java" />
         <option value="$PROJECT_DIR$/src/niuke/offer/Clone.java" />
+        <option value="$PROJECT_DIR$/src/niuke/offer/NumberOf1Between1AndNSolution.java" />
+        <option value="$PROJECT_DIR$/src/niuke/offer/InversePairs.java" />
+        <option value="$PROJECT_DIR$/src/niuke/offer/SumSolution.java" />
+        <option value="$PROJECT_DIR$/src/niuke/offer/ReverseSentence.java" />
+        <option value="$PROJECT_DIR$/src/niuke/offer/IsContinuous.java" />
+        <option value="$PROJECT_DIR$/src/niuke/offer/StrToInt.java" />
+        <option value="$PROJECT_DIR$/src/niuke/offer/Duplicate.java" />
+        <option value="$PROJECT_DIR$/src/niuke/offer/IsNumeric.java" />
+        <option value="$PROJECT_DIR$/src/niuke/offer/FirstAppearingOnce.java" />
+        <option value="$PROJECT_DIR$/src/niuke/offer/GetNext.java" />
+        <option value="$PROJECT_DIR$/src/niuke/offer/Print.java" />
+        <option value="$PROJECT_DIR$/src/niuke/offer/SerializeTree.java" />
+        <option value="$PROJECT_DIR$/src/niuke/offer/HasPath.java" />
+        <option value="$PROJECT_DIR$/src/niuke/offer/MovingCount.java" />
+        <option value="$PROJECT_DIR$/src/niuke/offer/EntryNodeOfLoop.java" />
+        <option value="$PROJECT_DIR$/src/niuke/offer/Add.java" />
+        <option value="$PROJECT_DIR$/src/niuke/xjk/util/ScannerTest.java" />
+        <option value="$PROJECT_DIR$/src/niuke/zhenti/MiTuDeNiuNiu.java" />
+        <option value="$PROJECT_DIR$/src/niuke/zhenti/MiLuDeNiuNiu.java" />
+        <option value="$PROJECT_DIR$/src/niuke/zhenti/BianDaShiQiuZhi.java" />
+        <option value="$PROJECT_DIR$/src/niuke/zhenti/BeiSanZhengChu.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/niuke/zhenti/ShiZhong.java" />
+        <option value="$PROJECT_DIR$/src/niuke/zhenti/YiFengqiGuaiDeXin.java" />
+        <option value="$PROJECT_DIR$/2019.md" />
+        <option value="$PROJECT_DIR$/src/niuke/zhenti/ChaZhaoShuZuZhogShu.java" />
+        <option value="$PROJECT_DIR$/src/niuke/zhenti/TiaoGeZiYouXi.java" />
+        <option value="$PROJECT_DIR$/src/niuke/zhenti/FangGeZouFa.java" />
+        <option value="$PROJECT_DIR$/src/niuke/zhenti/ShuChuZhiDingZiFuChangDu.java" />
+        <option value="$PROJECT_DIR$/src/niuke/zhenti/LianBiaoHeBing.java" />
+        <option value="$PROJECT_DIR$/src/niuke/zhenti/KuoHaoPeiDuiWenTi.java" />
+        <option value="$PROJECT_DIR$/src/niuke/zhenti/ZhengShuDeDaoShu.java" />
+        <option value="$PROJECT_DIR$/src/niuke/zhenti/ZiFuChuanJiaFa.java" />
+        <option value="$PROJECT_DIR$/src/niuke/zhenti/ShuDui.java" />
+        <option value="$PROJECT_DIR$/src/niuke/zhenti/YouXuJuZhenDiKXIaoYuanSu.java" />
+        <option value="$PROJECT_DIR$/src/niuke/zhenti/YuanGongKaoQinJiLu.java" />
       </list>
     </option>
   </component>
@@ -135,23 +177,16 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-99" />
-    <option name="y" value="1" />
-    <option name="width" value="974" />
-    <option name="height" value="1087" />
+    <option name="x" value="587" />
+    <option name="width" value="975" />
+    <option name="height" value="1090" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -159,16 +194,36 @@
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="niuke" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="niuke" type="462c0819:PsiDirectoryNode" />
+              <item name="zhenti" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563006389556" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565620852458" />
     <property name="last_opened_file_path" value="E:/Services/Git-2.15.1.2-64-bit/Git/bin/git.exe" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -189,35 +244,86 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.KthNode">
-    <configuration name="EntryNodeOfLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="niuke.offer.EntryNodeOfLoop" />
+  <component name="RunManager" selected="Application.YuanGongKaoQinJiLu">
+    <configuration name="FangGeZouFa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="niuke.zhenti.FangGeZouFa" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="niuke.offer.*" />
+          <option name="PATTERN" value="niuke.zhenti.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="KthNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="niuke.offer.KthNode" />
+    <configuration name="KuoHaoPeiDuiWenTi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="niuke.zhenti.KuoHaoPeiDuiWenTi" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="niuke.offer.*" />
+          <option name="PATTERN" value="niuke.zhenti.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShuChuZhiDingZiFuChangDu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="niuke.zhenti.ShuChuZhiDingZiFuChangDu" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="niuke.zhenti.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="YuanGongKaoQinJiLu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="niuke.zhenti.YuanGongKaoQinJiLu" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="niuke.zhenti.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZiFuChuanJiaFa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="niuke.zhenti.ZiFuChuanJiaFa" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="niuke.zhenti.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <list>
-      <item itemvalue="Application.EntryNodeOfLoop" />
-      <item itemvalue="Application.KthNode" />
+      <item itemvalue="Application.FangGeZouFa" />
+      <item itemvalue="Application.ShuChuZhiDingZiFuChangDu" />
+      <item itemvalue="Application.KuoHaoPeiDuiWenTi" />
+      <item itemvalue="Application.ZiFuChuanJiaFa" />
+      <item itemvalue="Application.YuanGongKaoQinJiLu" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.KthNode" />
-        <item itemvalue="Application.EntryNodeOfLoop" />
+        <item itemvalue="Application.YuanGongKaoQinJiLu" />
+        <item itemvalue="Application.ZiFuChuanJiaFa" />
+        <item itemvalue="Application.KuoHaoPeiDuiWenTi" />
+        <item itemvalue="Application.ShuChuZhiDingZiFuChangDu" />
+        <item itemvalue="Application.FangGeZouFa" />
       </list>
     </recent_temporary>
   </component>
@@ -252,307 +358,34 @@
       <workItem from="1562895705888" duration="10123000" />
       <workItem from="1563170971617" duration="9361000" />
       <workItem from="1563240774823" duration="3924000" />
-    </task>
-    <task id="LOCAL-00004" summary="update">
-      <created>1561727030848</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1561727030848</updated>
-    </task>
-    <task id="LOCAL-00005" summary="删除链表中重复的结点">
-      <created>1561775606717</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1561775606717</updated>
-    </task>
-    <task id="LOCAL-00006" summary="update">
-      <created>1561775630612</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1561775630612</updated>
-    </task>
-    <task id="LOCAL-00007" summary="在O(1)时间内删除链表中指定节点">
-      <created>1561786250607</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1561786250607</updated>
-    </task>
-    <task id="LOCAL-00008" summary="update">
-      <created>1561786262779</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1561786262779</updated>
-    </task>
-    <task id="LOCAL-00009" summary="字符流中第一个不重复的字符">
-      <created>1561864639068</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1561864639068</updated>
-    </task>
-    <task id="LOCAL-00010" summary="update">
-      <created>1561864666616</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1561864666616</updated>
-    </task>
-    <task id="LOCAL-00011" summary="构建乘积数组">
-      <created>1561867485846</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1561867485846</updated>
-    </task>
-    <task id="LOCAL-00012" summary="update">
-      <created>1561867500596</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1561867500596</updated>
-    </task>
-    <task id="LOCAL-00013" summary="翻转单词顺序列">
-      <created>1561878990386</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1561878990386</updated>
-    </task>
-    <task id="LOCAL-00014" summary="update">
-      <created>1561879005235</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1561879005235</updated>
-    </task>
-    <task id="LOCAL-00015" summary="扑克牌顺子">
-      <created>1561885623421</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1561885623421</updated>
-    </task>
-    <task id="LOCAL-00016" summary="update">
-      <created>1561885641870</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1561885641870</updated>
-    </task>
-    <task id="LOCAL-00017" summary="二叉搜索树的第k个结点">
-      <created>1561889881330</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1561889881330</updated>
-    </task>
-    <task id="LOCAL-00018" summary="update">
-      <created>1561889894247</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1561889894247</updated>
-    </task>
-    <task id="LOCAL-00019" summary="把字符串转换成整数">
-      <created>1562074717275</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1562074717275</updated>
-    </task>
-    <task id="LOCAL-00020" summary="update">
-      <created>1562074766021</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1562074766021</updated>
-    </task>
-    <task id="LOCAL-00021" summary="表示数值的字符串">
-      <created>1562162796199</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1562162796199</updated>
-    </task>
-    <task id="LOCAL-00022" summary="update">
-      <created>1562162816967</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1562162816967</updated>
-    </task>
-    <task id="LOCAL-00023" summary="update">
-      <created>1562338945316</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1562338945316</updated>
-    </task>
-    <task id="LOCAL-00024" summary="从尾到头打印链表">
-      <created>1562339482481</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1562339482481</updated>
-    </task>
-    <task id="LOCAL-00025" summary="update">
-      <created>1562339624281</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1562339624281</updated>
-    </task>
-    <task id="LOCAL-00026" summary="机器人的运动范围">
-      <created>1562595735128</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1562595735128</updated>
-    </task>
-    <task id="LOCAL-00027" summary="update">
-      <created>1562595751025</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1562595751025</updated>
-    </task>
-    <task id="LOCAL-00028" summary="刷题日记">
-      <created>1562836819284</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1562836819284</updated>
-    </task>
-    <task id="LOCAL-00029" summary="二维数组中的查找">
-      <created>1562836863849</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1562836863849</updated>
-    </task>
-    <task id="LOCAL-00030" summary="替换空格">
-      <created>1562837766941</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1562837766941</updated>
-    </task>
-    <task id="LOCAL-00031" summary="用两个栈实现队列">
-      <created>1562844389044</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1562844389044</updated>
-    </task>
-    <task id="LOCAL-00032" summary="update">
-      <created>1562844422108</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1562844422108</updated>
-    </task>
-    <task id="LOCAL-00033" summary="旋转数组的最小数字">
-      <created>1562900083808</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1562900083808</updated>
-    </task>
-    <task id="LOCAL-00034" summary="旋转数组的最小数字">
-      <created>1562900595908</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1562900595908</updated>
-    </task>
-    <task id="LOCAL-00035" summary="斐波那契数列">
-      <created>1562901677840</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1562901677840</updated>
-    </task>
-    <task id="LOCAL-00036" summary="跳台阶">
-      <created>1562902102949</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1562902102949</updated>
-    </task>
-    <task id="LOCAL-00037" summary="变态跳台阶">
-      <created>1562902861251</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1562902861251</updated>
-    </task>
-    <task id="LOCAL-00038" summary="矩形覆盖">
-      <created>1562903261710</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1562903261710</updated>
-    </task>
-    <task id="LOCAL-00039" summary="二进制中1的个数">
-      <created>1562904788013</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1562904788013</updated>
-    </task>
-    <task id="LOCAL-00040" summary="update">
-      <created>1562904886211</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1562904886211</updated>
-    </task>
-    <task id="LOCAL-00041" summary="update">
-      <created>1562911819070</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1562911819070</updated>
-    </task>
-    <task id="LOCAL-00042" summary="树的子结构">
-      <created>1563172487268</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1563172487268</updated>
-    </task>
-    <task id="LOCAL-00043" summary="二叉树的镜像">
-      <created>1563172889449</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1563172889449</updated>
-    </task>
-    <task id="LOCAL-00044" summary="顺时针打印矩阵">
-      <created>1563174719478</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1563174719478</updated>
-    </task>
-    <task id="LOCAL-00045" summary="包含min函数的栈">
-      <created>1563175942808</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1563175942808</updated>
-    </task>
-    <task id="LOCAL-00046" summary="二叉树中和为某一值的路径">
-      <created>1563177450661</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1563177450661</updated>
+      <workItem from="1563628342657" duration="4450000" />
+      <workItem from="1563676396216" duration="36000" />
+      <workItem from="1563704586032" duration="1314000" />
+      <workItem from="1563715886010" duration="782000" />
+      <workItem from="1563718403809" duration="1294000" />
+      <workItem from="1563802756570" duration="4341000" />
+      <workItem from="1563888230984" duration="4808000" />
+      <workItem from="1563974610452" duration="2778000" />
+      <workItem from="1563979740927" duration="629000" />
+      <workItem from="1564149995220" duration="2648000" />
+      <workItem from="1564282239324" duration="4586000" />
+      <workItem from="1564296643570" duration="16000" />
+      <workItem from="1564321463876" duration="4001000" />
+      <workItem from="1564408630455" duration="1741000" />
+      <workItem from="1564490186162" duration="836000" />
+      <workItem from="1564794897406" duration="1066000" />
+      <workItem from="1564814363012" duration="825000" />
+      <workItem from="1564823043994" duration="3885000" />
+      <workItem from="1564903665350" duration="2605000" />
+      <workItem from="1564912195410" duration="2898000" />
+      <workItem from="1565013493736" duration="726000" />
+      <workItem from="1565089528472" duration="28000" />
+      <workItem from="1565252366233" duration="4894000" />
+      <workItem from="1565358490364" duration="3310000" />
+      <workItem from="1565411025672" duration="1702000" />
+      <workItem from="1565421511456" duration="9155000" />
+      <workItem from="1565489205499" duration="6478000" />
+      <workItem from="1565612947884" duration="3615000" />
     </task>
     <task id="LOCAL-00047" summary="栈的压入、弹出序列">
       <created>1563178781822</created>
@@ -596,82 +429,392 @@
       <option name="project" value="LOCAL" />
       <updated>1563244528745</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="整数中1出现的次数（从1到n整数中1出现的次数）">
+      <created>1563629035655</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1563629035656</updated>
+    </task>
+    <task id="LOCAL-00054" summary="求1+2+3+...+n">
+      <created>1563631161701</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1563631161701</updated>
+    </task>
+    <task id="LOCAL-00055" summary="翻转单词顺序列">
+      <created>1563632866717</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1563632866717</updated>
+    </task>
+    <task id="LOCAL-00056" summary="update">
+      <created>1563632946375</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1563632946375</updated>
+    </task>
+    <task id="LOCAL-00057" summary="扑克牌顺子">
+      <created>1563706081610</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1563706081611</updated>
+    </task>
+    <task id="LOCAL-00058" summary="扑克牌顺子">
+      <created>1563719004036</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1563719004037</updated>
+    </task>
+    <task id="LOCAL-00059" summary="update">
+      <created>1563719077523</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1563719077523</updated>
+    </task>
+    <task id="LOCAL-00060" summary="把字符串转换成整数">
+      <created>1563804508581</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1563804508582</updated>
+    </task>
+    <task id="LOCAL-00061" summary="把字符串转换成整数">
+      <created>1563805466452</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1563805466452</updated>
+    </task>
+    <task id="LOCAL-00062" summary="数组中重复的数字">
+      <created>1563805863434</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1563805863434</updated>
+    </task>
+    <task id="LOCAL-00063" summary="update">
+      <created>1563806636092</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1563806636092</updated>
+    </task>
+    <task id="LOCAL-00064" summary="表示数值的字符串">
+      <created>1563890327051</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1563890327052</updated>
+    </task>
+    <task id="LOCAL-00065" summary="字符流中第一个不重复的字符">
+      <created>1563891229464</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1563891229464</updated>
+    </task>
+    <task id="LOCAL-00066" summary="二叉树的下一个结点">
+      <created>1563894412078</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1563894412078</updated>
+    </task>
+    <task id="LOCAL-00067" summary="update">
+      <created>1563894431746</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1563894431746</updated>
+    </task>
+    <task id="LOCAL-00068" summary="把二叉树打印成多行">
+      <created>1563976320857</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1563976320858</updated>
+    </task>
+    <task id="LOCAL-00069" summary="序列化二叉树">
+      <created>1563980636816</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1563980636816</updated>
+    </task>
+    <task id="LOCAL-00070" summary="update">
+      <created>1563980648705</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1563980648705</updated>
+    </task>
+    <task id="LOCAL-00071" summary="矩阵中的路径">
+      <created>1564291015455</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1564291015455</updated>
+    </task>
+    <task id="LOCAL-00072" summary="机器人的运动范围">
+      <created>1564292101064</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1564292101064</updated>
+    </task>
+    <task id="LOCAL-00073" summary="update">
+      <created>1564292135135</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1564292135135</updated>
+    </task>
+    <task id="LOCAL-00074" summary="链表中环的入口结点">
+      <created>1564325234528</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1564325234528</updated>
+    </task>
+    <task id="LOCAL-00075" summary="update">
+      <created>1564326454130</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1564326454130</updated>
+    </task>
+    <task id="LOCAL-00076" summary="不用加减乘除做加法">
+      <created>1564410731401</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1564410731402</updated>
+    </task>
+    <task id="LOCAL-00077" summary="update">
+      <created>1564410778972</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1564410778972</updated>
+    </task>
+    <task id="LOCAL-00078" summary="update">
+      <created>1564795019991</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1564795019992</updated>
+    </task>
+    <task id="LOCAL-00079" summary="update">
+      <created>1564795347483</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1564795347483</updated>
+    </task>
+    <task id="LOCAL-00080" summary="迷路的牛牛">
+      <created>1564827075750</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1564827075750</updated>
+    </task>
+    <task id="LOCAL-00081" summary="表达式求值">
+      <created>1564915054374</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1564915054374</updated>
+    </task>
+    <task id="LOCAL-00082" summary="被3整除">
+      <created>1564915064659</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1564915064659</updated>
+    </task>
+    <task id="LOCAL-00083" summary="update">
+      <created>1565014052747</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1565014052747</updated>
+    </task>
+    <task id="LOCAL-00084" summary="时钟">
+      <created>1565254175460</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1565254175461</updated>
+    </task>
+    <task id="LOCAL-00085" summary="一封奇怪的信">
+      <created>1565256916102</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1565256916102</updated>
+    </task>
+    <task id="LOCAL-00086" summary="update">
+      <created>1565257653233</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1565257653233</updated>
+    </task>
+    <task id="LOCAL-00087" summary="查找数组众数">
+      <created>1565361068270</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1565361068271</updated>
+    </task>
+    <task id="LOCAL-00088" summary="跳格子游戏">
+      <created>1565361757849</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1565361757849</updated>
+    </task>
+    <task id="LOCAL-00089" summary="update">
+      <created>1565361974552</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1565361974553</updated>
+    </task>
+    <task id="LOCAL-00090" summary="方格走法">
+      <created>1565421918076</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1565421918076</updated>
+    </task>
+    <task id="LOCAL-00091" summary="输出指定长度子串">
+      <created>1565423895167</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1565423895167</updated>
+    </task>
+    <task id="LOCAL-00092" summary="链表合并">
+      <created>1565448531898</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1565448531898</updated>
+    </task>
+    <task id="LOCAL-00093" summary="括号配对问题">
+      <created>1565490956512</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1565490956513</updated>
+    </task>
+    <task id="LOCAL-00094" summary="整数的倒数">
+      <created>1565491699356</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1565491699356</updated>
+    </task>
+    <task id="LOCAL-00095" summary="字符串加法">
+      <created>1565492905404</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1565492905404</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78589000" />
+    <option name="totallyTimeSpent" value="154046000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Key Promoter X" order="4" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="9" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32885906" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32885906" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21055438" />
-      <window_info anchor="bottom" id="Tail" order="8" />
-      <window_info anchor="right" id="Database" order="8" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21849866" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32885906" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="Alibaba Cloud Explorer" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Alibaba Cloud View" order="13" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32885906" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32885906" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Tail" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32885906" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32885906" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32885906" />
+      <window_info anchor="bottom" id="Alibaba Cloud View" order="13" weight="0.32885906" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Key Promoter X" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="9" />
     </layout>
     <layout-to-restore>
-      <window_info id="Designer" order="3" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32885906" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32885906" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Key Promoter X" order="4" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32885906" />
-      <window_info id="Alibaba Cloud Explorer" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="9" />
-      <window_info anchor="bottom" id="Alibaba Cloud View" order="13" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.6170678" />
-      <window_info anchor="right" id="Database" order="8" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Tail" order="8" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Alibaba Cloud Explorer" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32885906" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Tail" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32885906" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32885906" />
+      <window_info anchor="bottom" id="Alibaba Cloud View" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Key Promoter X" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="9" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -681,321 +824,38 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="二叉搜索树的第k个结点" />
     <MESSAGE value="把字符串转换成整数" />
+    <MESSAGE value="数组中重复的数字" />
     <MESSAGE value="表示数值的字符串" />
-    <MESSAGE value="从尾到头打印链表" />
+    <MESSAGE value="字符流中第一个不重复的字符" />
+    <MESSAGE value="二叉树的下一个结点" />
+    <MESSAGE value="把二叉树打印成多行" />
+    <MESSAGE value="序列化二叉树" />
+    <MESSAGE value="矩阵中的路径" />
     <MESSAGE value="机器人的运动范围" />
-    <MESSAGE value="刷题日记" />
-    <MESSAGE value="二维数组中的查找" />
-    <MESSAGE value="替换空格" />
-    <MESSAGE value="用两个栈实现队列" />
-    <MESSAGE value="旋转数组的最小数字" />
-    <MESSAGE value="斐波那契数列" />
-    <MESSAGE value="跳台阶" />
-    <MESSAGE value="变态跳台阶" />
-    <MESSAGE value="矩形覆盖" />
-    <MESSAGE value="数值的整数次方" />
-    <MESSAGE value="调整数组顺序使奇数位于偶数前面" />
-    <MESSAGE value="树的子结构" />
-    <MESSAGE value="二叉树的镜像" />
-    <MESSAGE value="顺时针打印矩阵" />
-    <MESSAGE value="包含min函数的栈" />
-    <MESSAGE value="二叉树中和为某一值的路径" />
-    <MESSAGE value="栈的压入、弹出序列" />
-    <MESSAGE value="从上往下打印二叉树" />
-    <MESSAGE value="复杂链表的复制" />
+    <MESSAGE value="链表中环的入口结点" />
+    <MESSAGE value="不用加减乘除做加法" />
+    <MESSAGE value="迷路的牛牛" />
+    <MESSAGE value="表达式求值" />
+    <MESSAGE value="被3整除" />
+    <MESSAGE value="时钟" />
+    <MESSAGE value="一封奇怪的信" />
+    <MESSAGE value="查找数组众数" />
+    <MESSAGE value="跳格子游戏" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="方格走法" />
+    <MESSAGE value="输出指定长度子串" />
+    <MESSAGE value="链表合并" />
+    <MESSAGE value="括号配对问题" />
+    <MESSAGE value="整数的倒数" />
+    <MESSAGE value="字符串加法" />
+    <option name="LAST_COMMIT_MESSAGE" value="字符串加法" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/niuke/offer/MoreThanHalfNumSolution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/niuke/offer/DeleteDuplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/niuke/offer/FirstAppearingOnce.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/niuke/offer/DeleteNodeInList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/niuke/offer/Multiply.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="9" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/niuke/offer/LeftRotateString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/Services/jdk1.8.0_171/jdk1.8.0_171/src.zip!/java/lang/Object.java" />
-    <entry file="file://$PROJECT_DIR$/src/niuke/offer/ReverseSentence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/niuke/offer/IsContinuous.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-145">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/niuke/xjk/Tree/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/niuke/xjk/Tree/SerialTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/niuke/xjk/Tree/IsCST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/niuke/xjk/Tree/SuccessorNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-100">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/niuke/xjk/Tree/TreeMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/niuke/xjk/Tree/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1200">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/从尾到头打印链表.java" />
-    <entry file="file://$PROJECT_DIR$/各位相加.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/niuke/offer/KthNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/niuke/offer/StrToInt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/niuke/offer/IsNumeric.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="11" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/niuke/offer/PrintMinNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/二维数组的查找.java" />
-    <entry file="file://$PROJECT_DIR$/log.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/niuke/offer/ReplaceSpace.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="8" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/niuke/offer/Find.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/niuke/offer/ReConstructBinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="24" column="110" selection-start-line="24" selection-start-column="110" selection-end-line="24" selection-end-column="110" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/niuke/offer/StackQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="11" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/niuke/offer/PrintListFromTailToHead.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/niuke/offer/EntryNodeOfLoop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/niuke/offer/JumpFloor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/niuke/offer/Fibonacci.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="9" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/niuke/offer/RectCover.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/niuke/offer/VerifySquenceOfBST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/niuke/offer/MovingCount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="11" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/niuke/offer/Match.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="5" column="9" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/niuke/offer/Power.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/niuke/offer/ReOrderArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="5" column="18" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/niuke/offer/FindKthToTail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="44" column="6" selection-start-line="44" selection-start-column="6" selection-end-line="58" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/niuke/offer/NumberOf1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/niuke/offer/JumpFloorII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/niuke/offer/HasSubtree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/niuke/offer/Mirror.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="9" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/niuke/offer/MinNumberInRotateArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="88" column="7" lean-forward="true" selection-start-line="88" selection-start-column="7" selection-end-line="88" selection-end-column="7" />
-          <folding>
-            <element signature="method#minNumberInRotateArray1#0;class#MinNumberInRotateArray#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/niuke/offer/Duplicate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1010,10 +870,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="7" column="12" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="12" />
-          <folding>
-            <element signature="e#807#808#0" expanded="true" />
-            <element signature="e#843#844#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1042,20 +898,319 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="6" column="10" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="10" />
-          <folding>
-            <element signature="e#2662#2663#0" expanded="true" />
-            <element signature="e#2696#2697#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/niuke/offer/NumberOf1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-40">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/niuke/offer/InversePairs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="655">
+          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="64" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/niuke/offer/NumberOf1Between1AndNSolution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="42" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/niuke/offer/GetNumberOfK.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/niuke/offer/PrintMinNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/niuke/offer/ReverseSentence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/niuke/offer/SumSolution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/niuke/offer/IsNumeric.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/niuke/offer/SerializeTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/niuke/offer/Print.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/niuke/offer/GetNext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="23" column="20" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/niuke/offer/FirstAppearingOnce.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/niuke/offer/Duplicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/niuke/offer/StrToInt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/niuke/offer/IsContinuous.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/niuke/offer/MaxInWindows.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/niuke/offer/HasPath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/niuke/offer/MovingCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="63" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/niuke/offer/EntryNodeOfLoop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/niuke/offer/DeleteDuplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/niuke/offer/Add.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/Palindrome">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/niuke/offer/StackQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/niuke/xjk/util/ScannerTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/niuke/xjk/util/Counter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/niuke/zhenti/BianDaShiQiuZhi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="15" selection-end-column="62" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="432">
-            <caret line="478" lean-forward="true" selection-start-line="478" selection-end-line="478" />
+          <first_editor relative-caret-position="895">
+            <caret line="625" column="92" selection-start-line="625" selection-start-column="92" selection-end-line="625" selection-end-column="92" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/niuke/zhenti/ShiZhong.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="21" column="21" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/niuke/zhenti/BeiSanZhengChu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/niuke/zhenti/MiLuDeNiuNiu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="11" column="36" selection-start-line="9" selection-start-column="3" selection-end-line="11" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2019.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="409">
+            <caret line="96" column="4" selection-start-line="96" selection-start-column="4" selection-end-line="96" selection-end-column="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/niuke/zhenti/ChaZhaoShuZuZhogShu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/niuke/zhenti/TiaoGeZiYouXi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/niuke/zhenti/FangGeZouFa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/niuke/zhenti/ShuChuZhiDingZiFuChangDu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/niuke/offer/Merge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/niuke/zhenti/LianBiaoHeBing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-460">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/niuke/zhenti/YiFengqiGuaiDeXin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/niuke/zhenti/KuoHaoPeiDuiWenTi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-150">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/niuke/zhenti/ZhengShuDeDaoShu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/niuke/zhenti/ZiFuChuanJiaFa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/niuke/zhenti/ShuDui.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/niuke/zhenti/YouXuJuZhenDiKXIaoYuanSu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/niuke/zhenti/YuanGongKaoQinJiLu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
