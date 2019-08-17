@@ -38,12 +38,3 @@ public class Palindrome {
          System.out.println(Palindrome.isPalindrome(node1));
      }
 }
-
-class ListNode {
-    int val;
-    ListNode next;
-
-    ListNode(int x) {
-        val = x;
-    }
-}
