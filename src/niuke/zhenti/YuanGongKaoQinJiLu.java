@@ -20,6 +20,7 @@ import java.util.Scanner;
  * 这N天里能获得奖赏的考勤组合数
  */
 public class YuanGongKaoQinJiLu {
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
