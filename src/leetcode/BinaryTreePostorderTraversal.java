@@ -27,10 +27,11 @@ public class BinaryTreePostorderTraversal {
     private ArrayList<Integer> list = new ArrayList<>();
     public ArrayList<Integer> postorderTraversal(TreeNode root) {
         if (root == null) {
-            return null;
+            return list;
         }
         if (root.left == null && root.right == null) {
             list.add(root.val);
+            return list;
         }
         postorderTraversal(root.left);
         postorderTraversal(root.right);
