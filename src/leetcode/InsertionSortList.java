@@ -13,6 +13,7 @@ public class InsertionSortList {
         if (head == null || head.next == null) {
             return head;
         }
+        //构建新的链表
         ListNode dummyHead = new ListNode(-1);
         ListNode pre = dummyHead;
         ListNode cur = head;
@@ -21,6 +22,7 @@ public class InsertionSortList {
             while (pre.next != null && pre.next.val < cur.val) {
                 pre =pre.next;
             }
+            //讲cur插入到新的链表中
             cur.next = pre.next;
             pre.next = cur;
             pre = dummyHead;
