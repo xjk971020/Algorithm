@@ -1,39 +1,14 @@
 package leetcode;
 
-import java.util.Arrays;
-
 /**
  * @author xjk
  * @date 2019/4/5 -  10:28
+ * sort-list
+ * 题目描述
  * 在 O(n log n) 时间复杂度和常数级空间复杂度下，对链表进行排序。
+ * Sort a linked list in O(n log n) time using constant space complexity.
  **/
 public class SortList {
-
-    public static ListNode sortList(ListNode head) {
-        if (head == null) {
-            return null;
-        }
-        ListNode lengthNodeTemp = head;
-        int length = 0;
-        while (lengthNodeTemp != null) {
-            length++;
-            lengthNodeTemp = lengthNodeTemp.next;
-        }
-        int[] arr = new int[length];
-        int i = 0;
-        while (head != null) {
-            arr[i++] = head.val;
-            head = head.next;
-        }
-        Arrays.sort(arr);
-        ListNode node = new ListNode(arr[0]);
-        ListNode nodeTemp = node;
-        for (i = 1; i < arr.length; i++) {
-            node.next = new ListNode(arr[i]);
-            node = node.next;
-        }
-        return nodeTemp;
-    }
     /**
      * 参考：Sort List——经典（链表中的归并排序） https://www.cnblogs.com/qiaozhoulin/p/4585401.html
      *
@@ -50,66 +25,49 @@ public class SortList {
      * 知识点2：找到一个链表的中间节点的方法
      * 知识点3：合并两个已排好序的链表为一个新的有序链表
      */
-    StringBuffer stringBuffer;
-
-    public ListNode mergeSortList(ListNode head) {
-        return head == null ? null : mergeSort(head);
-    }
-
-    private ListNode mergeSort(ListNode head) {
-        if (head.next == null) {
+    public ListNode sortList(ListNode head) {
+        if (head == null || head.next == null) {
             return head;
         }
-        ListNode p = head, q = head, pre = null;
+        ListNode p = head;
+        ListNode q = head;
+        ListNode pre = null;
         while (q != null && q.next != null) {
             pre = p;
             p = p.next;
             q = q.next.next;
         }
         pre.next = null;
-        ListNode l = mergeSort(head);
-        ListNode r = mergeSort(p);
-        return merge(l, r);
+        ListNode left = sortList(head);
+        ListNode right = sortList(p);
+        return merge(left, right);
     }
-
-    ListNode merge(ListNode l, ListNode r) {
-        ListNode dummyHead = new ListNode(0);
-        ListNode cur = dummyHead;
-        while (l != null && r != null) {
-            if (l.val <= r.val) {
-                cur.next = l;
-                cur = cur.next;
-                l = l.next;
+    private ListNode merge(ListNode left, ListNode right) {
+        ListNode realHead = new ListNode(0);
+        ListNode head = new ListNode(0);
+        realHead.next = head;
+        while (left != null && right != null) {
+            if (left.val >= right.val) {
+                head.next = right;
+                right = right.next;
+                head = head.next;
             } else {
-                cur.next = r;
-                cur = cur.next;
-                r = r.next;
+                head.next = left;
+                left = left.next;
+                head = head.next;
             }
         }
-        if (l != null) {
-            cur.next = l;
-        }
-        if (r != null) {
-            cur.next = r;
-        }
-        return dummyHead.next;
-    }
-    public static void main(String[] args) {
-        ListNode one = new ListNode(1);
-        ListNode two = new ListNode(235);
-        ListNode three = new ListNode(123);
-        ListNode four = new ListNode(14);
-        ListNode five = new ListNode(11);
-        ListNode six = new ListNode(16);
-        one.next = two;
-        two.next = three;
-        three.next = four;
-        four.next = five;
-        five.next = six;
-        ListNode head = SortList.sortList(one);
-        while (head != null) {
-            System.out.print(head.val + " ");
+        while (right != null) {
+            head.next = right;
+            right = right.next;
             head = head.next;
         }
+        while (left != null) {
+            head.next = left;
+            left = left.next;
+            head = head.next;
+        }
+        return realHead.next.next;
     }
+
 }
