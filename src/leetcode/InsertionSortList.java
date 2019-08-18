@@ -3,7 +3,10 @@ package leetcode;
 /**
  * @author xjk
  * @date 2019/4/7 -  15:39
- * 147、对链表进行插入排序
+ * insertion-sort-list
+ * 题目描述
+ * 使用插入排序对链表进行排序。
+ * Sort a linked list using insertion sort.
  **/
 public class InsertionSortList {
     public ListNode insertionSortList(ListNode head) {
