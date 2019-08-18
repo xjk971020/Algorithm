@@ -1,7 +1,5 @@
 package niuke.xjk.sort;
 
-import java.util.Arrays;
-
 /**
  * @author xjk
  * @date 2019/3/20 -  15:44
@@ -16,6 +14,9 @@ public class InsertionSort {
         }
         for (int i = 1;  i < arr.length; i ++) {
             for (int j = i - 1; j >= 0 && arr[j] > arr[j + 1]; --j) {
+                if (arr[j] <= arr[j+1]) {
+                    break;
+                }
                 swap(arr, j, j + 1);
             }
         }
@@ -26,11 +27,5 @@ public class InsertionSort {
         int temp = arr[i];
         arr[i] = arr[j];
         arr[j] = temp;
-    }
-
-    public static void main(String[] args) {
-        int arr[] = {1,4,6,2,3};
-        insertionSort(arr);
-        System.out.println(Arrays.toString(arr));
     }
 }
