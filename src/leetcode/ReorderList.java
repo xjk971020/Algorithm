@@ -19,12 +19,39 @@ package leetcode;
  */
 public class ReorderList {
     public void reorderList(ListNode head) {
-        if (head == null || head.next == null) {
+        if (head == null) {
             return;
         }
-        head.next = reverse(head.next);
+        ListNode fast = head;
+        ListNode slow = head;
+        while (fast != null && fast.next != null) {
+            fast = fast.next.next;
+            slow = slow.next;
+        }
+        ListNode after = reorder(slow.next);
+        /**
+         * 此处必须让slow.next = null,不让当两组链表重新拼接的时候会造成死循环
+         * 比如:
+         * 1->2->3->4->null
+         * 拆分为:
+         * 1->2->3->4->null
+         * 4->3->null
+         * 如果slow.next 不为null
+         * 合并后会变成1->4->2->3->4->2->3......
+         */
+        slow.next = null;
+        ListNode start = head;
+        while (start != null && after != null) {
+            ListNode startTemp = start.next;
+            ListNode afterTemp = after.next;
+            start.next = after;
+            start = startTemp;
+            after.next = start;
+            after = afterTemp;
+        }
     }
-    private ListNode reverse(ListNode head) {
+    //反转链表
+    private ListNode reorder(ListNode head) {
         ListNode pre = null;
         ListNode next = null;
         while (head != null) {
@@ -34,5 +61,18 @@ public class ReorderList {
             head = next;
         }
         return pre;
+    }
+
+    public static void main(String[] args) {
+        ListNode node = new ListNode(1);
+        node.next = new ListNode(2);
+        node.next.next = new ListNode(3);
+        node.next.next.next = new ListNode(4);
+        ReorderList reorderList = new ReorderList();
+        reorderList.reorderList(node);
+        while (node != null) {
+            System.out.println(node.val);
+            node = node.next;
+        }
     }
 }
