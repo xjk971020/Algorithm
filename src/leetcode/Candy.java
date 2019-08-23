@@ -22,21 +22,25 @@ import java.util.Arrays;
  */
 public class Candy {
     public int candy(int[] ratings) {
+        if (ratings == null || ratings.length <= 1) {
+            return ratings.length;
+        }
         int[] count = new int[ratings.length];
-        Arrays.fill(count, 0);
+        Arrays.fill(count, 1);
         int sum = 0;
-        for (int i = 0; i < ratings.length - 1; i++) {
-            if (ratings[i] > ratings[i+1]) {
-                count[i]++;
+        for (int i = 1; i < ratings.length; i++) {
+            if (ratings[i] > ratings[i-1]) {
+                count[i] = count[i-1] + 1;
             }
         }
-        for (int i = count.length - 1; i > 0; i--) {
-            if (ratings[i] > ratings[i-1]) {
-                count[i]++;
+        for (int i = count.length - 2; i >= 0; i--) {
+            if (ratings[i] > ratings[i+1] && count[i] <= count[i+1]) {
+                count[i] = count[i+1] + 1;
             }
+        }
+        for (int i = 0; i < count.length; i++) {
             sum += count[i];
         }
-        sum += count[0];
         return sum;
     }
 }
