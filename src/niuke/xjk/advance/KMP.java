@@ -10,6 +10,7 @@ public class KMP {
 
     /**
      * 判断str1中是否存在str2, 存在的话返回第一个位置的下标, 不存在的话返回-1
+     *
      * @param str1
      * @param str2
      * @return
@@ -65,5 +66,14 @@ public class KMP {
             }
         }
         return next;
+    }
+
+    public static void main(String[] args) {
+        String str1 = "babba";
+        String str2 = "bbb";
+//        String str1 = "bxcvab";
+//        String str2 = "aac";
+        KMP implementStrstr = new KMP();
+        System.out.println(implementStrstr.getIndexOf(str1, str2));
     }
 }
