@@ -67,13 +67,4 @@ public class KMP {
         }
         return next;
     }
-
-    public static void main(String[] args) {
-        String str1 = "babba";
-        String str2 = "bbb";
-//        String str1 = "bxcvab";
-//        String str2 = "aac";
-        KMP implementStrstr = new KMP();
-        System.out.println(implementStrstr.getIndexOf(str1, str2));
-    }
 }
