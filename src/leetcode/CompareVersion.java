@@ -74,9 +74,4 @@ public class CompareVersion {
         }
         return 0;
     }
-
-    public static void main(String[] args) {
-        CompareVersion compareVersion = new CompareVersion();
-        System.out.println(compareVersion.compareVersion("0.1", "1.1"));
-    }
 }
