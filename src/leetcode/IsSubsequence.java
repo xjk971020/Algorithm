@@ -30,6 +30,35 @@ package leetcode;
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
 public class IsSubsequence {
+    /**
+     * 快慢指针
+     * @param t
+     * @param s
+     * @return
+     */
+    public boolean isSubsequence_(String t, String s) {
+        int t1 = 0;
+        int s1 = 0;
+        while (t1 < t.length() && s1 < s.length()) {
+            if (t.charAt(t1) == s.charAt(s1)) {
+                t1++;
+                s1++;
+            } else {
+                s1++;
+            }
+        }
+        if (t1 == t.length()) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+    /**
+     * 递归
+     * @param t
+     * @param s
+     * @return
+     */
     public boolean isSubsequence(String t, String s) {
         char[] s1 = s.toCharArray();
         char[] t1= t.toCharArray();
