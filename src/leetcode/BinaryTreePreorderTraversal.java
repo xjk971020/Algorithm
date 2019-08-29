@@ -1,6 +1,8 @@
 package leetcode;
 
 import java.util.ArrayList;
+import java.util.List;
+import java.util.Stack;
 
 /**
  * cathetine
@@ -38,5 +40,29 @@ public class BinaryTreePreorderTraversal {
         preorderTraversal(root.left);
         preorderTraversal(root.right);
         return list;
+    }
+    /**
+     * 非递归
+     * @param root
+     * @return
+     */
+    public List<Integer> preorderTraversal_(TreeNode root) {
+        List<Integer> results = new ArrayList<>();
+        if (root == null) {
+            return results;
+        }
+        Stack<TreeNode> stack = new Stack<>();
+        stack.push(root);
+        while(!stack.isEmpty()) {
+            root = stack.pop();
+            results.add(root.val);
+            if (root.right != null) {
+                stack.push(root.right);
+            }
+            if (root.left != null) {
+                stack.push(root.left);
+            }
+        }
+        return results;
     }
 }
