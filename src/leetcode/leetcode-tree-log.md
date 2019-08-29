@@ -25,7 +25,7 @@ begin: 2019-8-28
 
 - **题目答案**
 
-- https://github.com/xjk971020/Algorithm/blob/master/src/leetcode/PreorderTraversal.java
+- https://github.com/xjk971020/Algorithm/blob/master/src/leetcode/BinaryPreorderTraversal.java
 
 #### [94. 二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)
 
@@ -67,7 +67,7 @@ begin: 2019-8-28
 
 - **题目答案**
 
-- https://github.com/xjk971020/Algorithm/blob/master/src/leetcode/PostorderTraversal.java
+- https://github.com/xjk971020/Algorithm/blob/master/src/leetcode/BinaryTreePostorderTraversal.java
 
 
 
