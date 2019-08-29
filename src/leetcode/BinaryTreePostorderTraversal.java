@@ -1,6 +1,8 @@
 package leetcode;
 
 import java.util.ArrayList;
+import java.util.List;
+import java.util.Stack;
 
 /**
  * cathetine
@@ -37,5 +39,34 @@ public class BinaryTreePostorderTraversal {
         postorderTraversal(root.right);
         list.add(root.val);
         return list;
+    }
+
+    /**
+     * 非递归
+     * @param root
+     * @return
+     */
+    public List<Integer> postorderTraversal_(TreeNode root) {
+        List<Integer> results = new ArrayList<>();
+        if (root == null) {
+            return results;
+        }
+        Stack<TreeNode> stack = new Stack<>();
+        Stack<TreeNode> help = new Stack<>();
+        stack.push(root);
+        while (!stack.isEmpty()) {
+            root = stack.pop();
+            help.push(root);
+            if (root.left != null) {
+                stack.push(root.left);
+            }
+            if (root.right != null) {
+                stack.push(root.right);
+            }
+        }
+        while (!help.isEmpty()) {
+            results.add(help.pop().val);
+        }
+        return results;
     }
 }
