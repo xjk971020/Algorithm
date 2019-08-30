@@ -225,19 +225,47 @@ begin: 2019-8-28
 
 - https://github.com/xjk971020/Algorithm/blob/master/src/leetcode/MonotoneIncreasingDigits.java
 
-### 
+### [1046. 最后一块石头的重量](https://leetcode-cn.com/problems/last-stone-weight/)
 
 - **题目描述**
-- 
-- **题目答案**
-- https://github.com/xjk971020/Algorithm/blob/master/src/leetcode/
 
-### 
+- 有一堆石头，每块石头的重量都是正整数。
+
+  每一回合，从中选出两块最重的石头，然后将它们一起粉碎。假设石头的重量分别为 x 和 y，且 x <= y。那么粉碎的可能结果如下：
+
+  如果 x == y，那么两块石头都会被完全粉碎；
+  如果 x != y，那么重量为 x 的石头将会完全粉碎，而重量为 y 的石头新重量为 y-x。
+  最后，最多只会剩下一块石头。返回此石头的重量。如果没有石头剩下，就返回 0。
+
+   
+
+  提示：
+
+  1 <= stones.length <= 30
+  1 <= stones[i] <= 1000
+
+- **题目答案**
+
+- https://github.com/xjk971020/Algorithm/blob/master/src/leetcode/LastStoneWeight.java
+
+### [316. 去除重复字母](https://leetcode-cn.com/problems/remove-duplicate-letters/)
 
 - **题目描述**
-- 
+
+- 给定一个仅包含小写字母的字符串，去除字符串中重复的字母，使得每个字母只出现一次。需保证返回结果的字典序最小（要求不能打乱其他字符的相对位置）。
+
+  示例 1:
+
+  输入: "bcabc"
+  输出: "abc"
+  示例 2:
+
+  输入: "cbacdcbc"
+  输出: "acdb"
+
 - **题目答案**
-- https://github.com/xjk971020/Algorithm/blob/master/src/leetcode/
+
+- https://github.com/xjk971020/Algorithm/blob/master/src/leetcode/RemoveDuplicateLetters.java
 
 ### 
 
