@@ -32,8 +32,11 @@ package leetcode;
  */
 public class WiggleMaxLength {
     public int wiggleMaxLength(int[] nums) {
-        if (nums == null || nums.length < 2) {
+        if (nums == null || nums.length  ==  0) {
             return 0;
+        }
+        if (nums.length == 1) {
+            return 1;
         }
         int[] up = new int[nums.length];
         int[] down = new int[nums.length];
@@ -48,4 +51,61 @@ public class WiggleMaxLength {
         }
         return 1 + Math.max(up[nums.length-1], down[nums.length-1]);
     }
+
+    /**
+     * 线性动态规划
+     * 时间复杂度： O(n)O(n) 。只需要遍历数组一遍。
+     * 空间复杂度： O(n)O(n) 。 dp需要两个相同长度的数组。
+     * @param nums
+     * @return
+     */
+    public int wiggleMaxLength_(int[] nums) {
+        if (nums == null || nums.length  ==  0) {
+            return 0;
+        }
+        if (nums.length == 1) {
+            return 1;
+        }
+        int[] up = new int[nums.length];
+        int[] down = new int[nums.length];
+        up[0] = down[0] = 1;
+        for (int i = 1; i < nums.length; ++i) {
+            if (nums[i] > nums[i-1]) {
+                up[i] = down[i-1] + 1;
+                down[i] = down[i-1];
+            } else if (nums[i] < nums[i-1]) {
+                down[i] = up[i-1] + 1;
+                up[i] = up[i-1];
+            } else {
+                down[i] = down[i-1];
+                up[i] = up[i-1];
+            }
+        }
+        return Math.max(up[up.length - 1], down[down.length - 1]);
+    }
+    /**
+     *
+     * 线性动态规划(空间复杂度为1)
+     * @param nums
+     * @return
+     */
+    public int wiggleMaxLength__(int[] nums) {
+        if (nums == null || nums.length  ==  0) {
+            return 0;
+        }
+        if (nums.length == 1) {
+            return 1;
+        }
+        int down = 1;
+        int up = 1;
+        for (int i = 1; i < nums.length; ++i) {
+            if (nums[i] > nums[i-1]) {
+                up = down + 1;
+            } else if (nums[i] < nums[i-1]) {
+                down = up + 1;
+            }
+        }
+        return Math.max(up, down);
+    }
+
 }
