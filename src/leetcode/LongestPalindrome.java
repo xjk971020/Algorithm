@@ -47,8 +47,4 @@ public class LongestPalindrome {
         return right - left - 1;
     }
 
-    public static void main(String[] args) {
-        LongestPalindrome longestPalindrome = new LongestPalindrome();
-        System.out.println(longestPalindrome.longestPalindrome("123432,1"));
-    }
 }
