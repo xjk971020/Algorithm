@@ -156,6 +156,27 @@ begin: 2019-9-3
 
 - https://github.com/xjk971020/Algorithm/blob/master/src/leetcode/WordBreak.java
 
+### [152. 乘积最大子序列](https://leetcode-cn.com/problems/maximum-product-subarray/)
+
+- **题目描述**
+
+- 给定一个整数数组 nums ，找出一个序列中乘积最大的连续子序列（该序列至少包含一个数）。
+
+  示例 1:
+
+  输入: [2,3,-2,4]
+  输出: 6
+  解释: 子数组 [2,3] 有最大乘积 6。
+  示例 2:
+
+  输入: [-2,0,-1]
+  输出: 0
+  解释: 结果不能为 2, 因为 [-2,-1] 不是子数组。
+
+- **题目答案**
+
+- https://github.com/xjk971020/Algorithm/blob/master/src/leetcode/MaxProduct.java
+
 ### 
 
 - **题目描述**
