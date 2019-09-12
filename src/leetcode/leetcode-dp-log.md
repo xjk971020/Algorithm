@@ -177,6 +177,33 @@ begin: 2019-9-3
 
 - https://github.com/xjk971020/Algorithm/blob/master/src/leetcode/MaxProduct.java
 
+### [322. 零钱兑换](https://leetcode-cn.com/problems/coin-change/)
+
+- **题目描述**
+
+- 给定不同面额的硬币 coins 和一个总金额 amount。编写一个函数来计算可以凑成总金额所需的最少的硬币个数。如果没有任何一种硬币组合能组成总金额，返回 -1。
+
+  示例 1:
+
+  输入: coins = [1, 2, 5], amount = 11
+  输出: 3 
+  解释: 11 = 5 + 5 + 1
+  示例 2:
+
+  输入: coins = [2], amount = 3
+  输出: -1
+
+- **题目答案**
+
+- https://github.com/xjk971020/Algorithm/blob/master/src/leetcode/CoinChange.java
+
+### 
+
+- **题目描述**
+- 
+- **题目答案**
+- https://github.com/xjk971020/Algorithm/blob/master/src/leetcode/
+
 ### 
 
 - **题目描述**
