@@ -12,12 +12,16 @@ import java.util.Arrays;
  * 不具有稳定性
  **/
 public class QuickSort {
-    public static void quickSort(int[] arr, int left, int right) {
+    public static void quickSort(int[] arr) {
+        if (arr == null || arr.length < 2) {
+            return;
+        }
+        quickSort(arr, 0, arr.length - 1);
+    }
+    private static void quickSort(int[] arr, int left, int right) {
         if (left < right) {
-            //随机快排
-            //时间复杂度 O(N*logN)
-            swap(arr,left + (int) Math.random() * (right -left + 1),right);
-            int[] partition = partition(arr,left,right);
+            swap(arr, (int)(Math.random() * (right - left)), right);
+            int[] partition = partition(arr, left, right);
             quickSort(arr, left, partition[0] - 1);
             quickSort(arr, partition[1] + 1, right);
         }
@@ -26,22 +30,21 @@ public class QuickSort {
         int less = left - 1;
         int more = right;
         while (left < more) {
-            if (arr[left] < arr[right]) {
-                swap(arr, ++less, left++);
-            } else if (arr[left] > arr[right]) {
+            if (arr[left] > arr[right]) {
                 swap(arr,--more,left);
+            } else if (arr[left] < arr[right]) {
+                swap(arr, ++less, left++);
             } else {
                 left++;
             }
         }
-        swap(arr,more,right);
+        swap(arr, more,right);
         return new int[]{less + 1, more};
     }
-
     private static void swap(int[] arr, int i, int j) {
         int temp = arr[i];
         arr[i] = arr[j];
-        arr[j] = temp;
+        arr[j] = arr[i];
     }
 
     public static void main(String[] args) {
