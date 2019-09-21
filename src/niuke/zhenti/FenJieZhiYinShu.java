@@ -6,7 +6,7 @@ import java.util.Scanner;
  * @Author:cathetine
  * @Date:19-9-21
  * @Time:下午2:52
- *
+ *　珍爱网
  * 将一个正整数分解成质因数
  */
 public class FenJieZhiYinShu {
