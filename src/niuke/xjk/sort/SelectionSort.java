@@ -1,5 +1,7 @@
 package niuke.xjk.sort;
 
+import niuke.xjk.util.Counter;
+
 import java.util.Arrays;
 
 /**
@@ -11,27 +13,28 @@ import java.util.Arrays;
 public class SelectionSort {
 
     public static int[] selectionSort(int[] arr) {
-        if (arr == null || arr.length < 2) {
+        if (arr == null || arr.length == 0) {
             return arr;
         }
-       for (int i = 0; i < arr.length - 1; i++) {
-           int minIndex = i;
-           for (int j = i + 1; j < arr.length; j++) {
-               minIndex = arr[minIndex] > arr[j] ? j : minIndex;
-           }
-           swap(arr, minIndex,i);
-       }
+        for (int i = 0; i < arr.length - 1; ++i){
+            int minIndex = i;
+            for (int j = i + 1; j < arr.length; ++j) {
+                minIndex = arr[minIndex] > arr[j]?j:minIndex;
+            }
+            if (minIndex != i) {
+                swap(arr, minIndex, i);
+            }
+        }
         return arr;
     }
-
-    public static void swap(int[] arr,int i, int j)  {
-        int temp = arr[i];
-        arr[i] = arr[j];
-        arr[j] = temp;
+    private static void swap(int[] arr, int i, int j) {
+        arr[i] = arr[i] ^ arr[j];
+        arr[j] = arr[i] ^ arr[j];
+        arr[i] = arr[i] ^ arr[j];
     }
 
     public static void main(String[] args) {
-        int[] arr = {1,4,6,2,3};
+        int[] arr = Counter.generateRandomArray(40,100);
         selectionSort(arr);
         System.out.println(Arrays.toString(arr));
     }

@@ -1,6 +1,6 @@
 package niuke.xjk.util;
 
-import niuke.xjk.sort.InsertionSort;
+import niuke.xjk.sort.QuickSort;
 
 import java.util.Arrays;
 
@@ -36,7 +36,7 @@ public class Counter {
         }
         int[] copyArr = new int[arr.length];
         for (int i = 0; i < arr.length; i ++) {
-            arr[i] = copyArr[i];
+            copyArr[i] = arr[i];
         }
         return copyArr;
     }
@@ -45,7 +45,7 @@ public class Counter {
         if (arr1 == null && arr2 == null) {
             return true;
         }
-        if ((arr1 != null && arr2 ==null) || (arr1 == null && arr2 != null)) {
+        if (arr1 != null && arr2 == null || arr1 == null) {
             return false;
         }
         if (arr1.length != arr2.length) {
@@ -68,14 +68,18 @@ public class Counter {
     }
 
     public static void main(String[] args) {
-        int testTime = 200000;
-        int value = 100;
+        int testTime = 20;
+        int value = 1000;
         int maxSize = 20;
         boolean success = true;
         for (int i = 0 ; i < testTime; i ++) {
             int[] arr1 = generateRandomArray(maxSize,value);
             int[] arr2 = copyOf(arr1);
-            InsertionSort.insertionSort(arr1);
+//            InsertionSort.insertionSort(arr1);
+//            BubbleSort.bubbleSort(arr1);
+//            SelectionSort.selectionSort(arr1);
+//            MergerSort.mergeSort(arr1);
+            QuickSort.quickSort(arr1);
             rightMethod(arr2);
             if (!isEqual(arr1,arr2)) {
                 success = false;

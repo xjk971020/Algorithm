@@ -10,29 +10,26 @@ import java.util.Arrays;
  **/
 public class BubbleSort {
     public static int[] bubbleSort(int[] arr) {
-        if (arr.length < 2 ||arr == null) {
-            return arr;
-        }
-        //开关判断是否在某次遍历中没有发生交换，如果没有，则说明已经排好序
-        boolean didSwap;
+        //用一个开关判断某一次是否没有交换过,  没有交换过说明已经排好序了
+        boolean doSwap = false;
         for (int end = arr.length - 1; end > 0; --end) {
-            didSwap = false;
-            for (int i = 0; i < end; i++) {
+            for (int i = 0; i < end; ++i) {
                 if (arr[i] > arr[i+1]) {
                     swap(arr, i, i + 1);
-                    didSwap = true;
+                    doSwap = true;
                 }
             }
-            if (didSwap == true) {
+            if (!doSwap) {
                 return arr;
             }
         }
         return arr;
     }
-    public static void swap(int[] arr,int i, int j)  {
-        int temp = arr[i];
-        arr[i] = arr[j];
-        arr[j] = temp;
+
+    private static void swap(int[] arr, int i, int j) {
+        arr[i] = arr[i] ^ arr[j];
+        arr[j] = arr[i] ^ arr[j];
+        arr[i] = arr[i] ^ arr[j];
     }
 
     public static void main(String[] args) {
