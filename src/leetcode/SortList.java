@@ -26,6 +26,7 @@ public class SortList {
      * 知识点3：合并两个已排好序的链表为一个新的有序链表
      */
     public ListNode sortList(ListNode head) {
+        //归并排序
         if (head == null || head.next == null) {
             return head;
         }
