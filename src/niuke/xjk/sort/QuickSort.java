@@ -7,7 +7,7 @@ import java.util.Arrays;
 /**
  * @author xjk
  * @date 2019/3/24 -  10:20
- * 改进后的快速排序，使用荷兰国旗的思想
+ * 改进后的快速排序
  * 空间复杂度O(logN)
  * 不具有稳定性
  **/
@@ -20,7 +20,7 @@ public class QuickSort {
     }
     private static void quickSort(int[] arr, int left, int right) {
         if (left < right) {
-            swap(arr, (int)(Math.random() * (right - left)), right);
+            swap(arr, left + (int)(Math.random() * (right - left + 1)), right);
             int[] partition = partition(arr, left, right);
             quickSort(arr, left, partition[0] - 1);
             quickSort(arr, partition[1] + 1, right);
@@ -44,12 +44,13 @@ public class QuickSort {
     private static void swap(int[] arr, int i, int j) {
         int temp = arr[i];
         arr[i] = arr[j];
-        arr[j] = arr[i];
+        arr[j] = temp;
     }
 
     public static void main(String[] args) {
         int[] arr = Counter.generateRandomArray(40,100);
-        quickSort(arr, 0 , arr.length - 1);
+        System.out.println(Arrays.toString(arr));
+        quickSort(arr, 0, arr.length - 1);
         System.out.println(Arrays.toString(arr));
 }
 }
