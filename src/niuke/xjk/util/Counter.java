@@ -1,6 +1,6 @@
 package niuke.xjk.util;
 
-import niuke.xjk.sort.QuickSort;
+import niuke.xjk.sort.HeapSort;
 
 import java.util.Arrays;
 
@@ -79,7 +79,8 @@ public class Counter {
 //            BubbleSort.bubbleSort(arr1);
 //            SelectionSort.selectionSort(arr1);
 //            MergerSort.mergeSort(arr1);
-            QuickSort.quickSort(arr1);
+//            QuickSort.quickSort(arr1);
+            HeapSort.heapSort(arr1);
             rightMethod(arr2);
             if (!isEqual(arr1,arr2)) {
                 success = false;
