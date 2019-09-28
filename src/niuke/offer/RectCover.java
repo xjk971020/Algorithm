@@ -27,4 +27,24 @@ public class RectCover {
         arr[target] = rectCover(target - 1) + rectCover(target - 2);
         return arr[target];
     }
+
+    /**
+     * 动态规划
+     * @param target
+     * @return
+     */
+    public int rectCover_(int target) {
+        if (target <= 2) {
+            return target;
+        }
+        int pre = 1;
+        int next = 2;
+        int total = 0;
+        for (int i = 3; i <= target; ++i) {
+            total = pre + next;
+            pre = next;
+            next = total;
+        }
+        return total;
+    }
 }
