@@ -17,28 +17,22 @@ public class Power {
      * @return
      */
     public double Power(double base, int exponent) {
-        if (base == 0) {
-            return 0;
+        if (exponent == 0){
+            return 1;
         }
-        double temp = 1;
-        if (exponent >= 0) {
-            for (int i = 0; i < exponent; ++i) {
-                temp *= base;
-                if(temp > Double.MAX_VALUE) {
-                    throw new RuntimeException("超出double的最大范围");
-                }
-            }
-            return temp;
-        } else {
+        boolean smallerThanZero = false;
+        if (exponent < 0) {
+            smallerThanZero = true;
             exponent = -exponent;
-            for (int i = 0; i < exponent; ++i) {
-                temp *= base;
-                if(temp > Double.MAX_VALUE) {
-                    throw new RuntimeException("超出double的最大范围");
-                }
-            }
-            temp = 1.0/temp;
-            return temp;
         }
+        double sum = 1;
+        for (int i = 0; i < exponent; ++i) {
+            sum = sum * base;
+            if (sum > Double.MAX_VALUE) {
+                //注意此处需要判断是否超出Double类型的最大值
+                throw new RuntimeException("超出double的最大值");
+            }
+        }
+        return smallerThanZero?1.0/sum:sum;
     }
 }
