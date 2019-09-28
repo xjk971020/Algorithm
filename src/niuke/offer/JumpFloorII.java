@@ -58,4 +58,22 @@ public class JumpFloorII {
         arr[n] = jumpFloorII(n - 1) * 2;
         return arr[n];
     }
+
+    /**
+     * 动态规划
+     * @param n
+     * @return
+     */
+    public int jumpFloorII_(int n) {
+        if (n <= 2) {
+            return n;
+        }
+        int pre = 2;
+        int total = 0;
+        for (int i = 3; i <= n; ++i) {
+            total = pre * 2;
+            pre = total;
+        }
+        return total;
+    }
 }
