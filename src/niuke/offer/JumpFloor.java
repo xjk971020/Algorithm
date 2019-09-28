@@ -17,6 +17,11 @@ public class JumpFloor {
         }
     }
 
+    /**
+     * 记忆化递归
+     * @param target
+     * @return
+     */
     public int JumpFloor(int target) {
         if (target < 0) {
             throw new IllegalArgumentException("目标数不能小于0");
@@ -32,5 +37,25 @@ public class JumpFloor {
         }
         arr[target] = JumpFloor(target - 1) + JumpFloor(target - 2);
         return arr[target];
+    }
+
+    /**
+     * 动态规划
+     * @param target
+     * @return
+     */
+    public int JumpFloor_(int target) {
+        if (target <= 2) {
+            return target;
+        }
+        int pre = 1;
+        int next = 1;
+        int total = 0;
+        for (int i = 3; i <= target; ++i) {
+            total = pre + next;
+            pre = next;
+            next = total;
+        }
+        return total;
     }
 }
