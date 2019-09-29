@@ -18,41 +18,34 @@ public class PrintZhi {
         if (pRoot == null) {
             return result;
         }
-        int flag = 1;
+        int levelCount = 1;
         Stack<TreeNode> left = new Stack<>();
         Stack<TreeNode> right = new Stack<>();
-        left.push(pRoot);
-
+        right.add(pRoot);
         while (!left.isEmpty() || !right.isEmpty()) {
-            if (flag % 2 != 0) {
-                ArrayList<Integer> level = new ArrayList<>();
+            ArrayList<Integer> level = new ArrayList<>();
+            if (levelCount % 2 == 0) {
                 while (!left.isEmpty()) {
-                    TreeNode node = left.pop();
-                    if (node != null) {
-                        level.add(node.val);
-                        right.push(node.left);
-                        right.push(node.right);
+                    TreeNode tempLeft = left.pop();
+                    if (tempLeft != null) {
+                        right.add(tempLeft.right);
+                        right.add(tempLeft.left);
+                        level.add(tempLeft.val);
                     }
                 }
-                if (!level.isEmpty()) {
-                    result.add(level);
-                    flag++;
+            } else {
+                while (!right.isEmpty()) {
+                    TreeNode tempRight = right.pop();
+                    if (tempRight != null) {
+                        left.add(tempRight.left);
+                        left.add(tempRight.right);
+                        level.add(tempRight.val);
+                    }
                 }
             }
-            if (flag % 2 == 0) {
-                ArrayList<Integer> level = new ArrayList<>();
-                while (!right.isEmpty()) {
-                    TreeNode node = right.pop();
-                    if (node != null) {
-                        level.add(node.val);
-                        left.add(node.right);
-                        left.add(node.left);
-                    }
-                }
-                if (!level.isEmpty()) {
-                    result.add(level);
-                    flag++;
-                }
+            levelCount++;
+            if (!level.isEmpty()) {
+                result.add(level);
             }
         }
         return result;
