@@ -13,12 +13,9 @@ public class IsSymmetrical {
         if (pRoot == null) {
             return true;
         }
-        if (pRoot.left == null && pRoot.right == null) {
-            return true;
-        }
-        return symmetrical(pRoot.left, pRoot.right);
+        return isSymmetrical(pRoot.left, pRoot.right);
     }
-    private boolean symmetrical(TreeNode left, TreeNode right) {
+    private boolean isSymmetrical(TreeNode left, TreeNode right) {
         if (left == null) {
             return right == null;
         }
@@ -28,6 +25,6 @@ public class IsSymmetrical {
         if (left.val != right.val) {
             return false;
         }
-        return symmetrical(left.left,right.right) && symmetrical(left.right, right.left);
+        return isSymmetrical(left.left,right.right) && isSymmetrical(left.right, right.left);
     }
 }
