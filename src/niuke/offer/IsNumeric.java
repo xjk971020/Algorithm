@@ -11,39 +11,24 @@ package niuke.offer;
  */
 public class IsNumeric {
     public boolean isNumeric(char[] str) {
-        if (str == null || str.length == 0) {
-            return false;
-        }
-        boolean hasE = false, decimal = false, signal = false;
+        boolean hasE = false;
+        boolean hasPoint = false;
         for (int i = 0; i < str.length; ++i) {
-            if (str[i] == 'E' || str[i] == 'e') {
-                if (i == str.length - 1) {
+            if (str[i] == '+' || str[i] == '-') {
+                if (i > 0 && str[i-1] != 'e' && str[i-1] != 'E') {
                     return false;
                 }
-                if (hasE) {
+            } else if (str[i] == 'e' || str[i] == 'E') {
+                if (hasE || i == str.length - 1) {
                     return false;
                 }
                 hasE = true;
-            } else if (str[i] == '+' || str[i] == '-') {
-                if (signal && str[i - 1] != 'E' && str[i - 1] != 'e') {
-                    return false;
-                }
-                //处理 1+23 这种数据
-                if (!signal && i>0 && str[i-1] != 'E' && str[i-1] != 'e') {
-                    return false;
-                }
-                signal = true;
             } else if (str[i] == '.') {
-                if (hasE) {
+                if (hasE || hasPoint) {
                     return false;
                 }
-                if (decimal) {
-                    return false;
-                }
-                decimal = true;
-                //str[i] > 57 || str[i] < 48
-            } else if(str[i] < '0' || str[i] > '9'){
-                //不是e也不是+-符号也不是小数点，那么只能是数字，不是数字就是非法的字符
+                hasPoint = true;
+            } else if (str[i] > '9' || str[i] < '0') {
                 return false;
             }
         }
