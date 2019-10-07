@@ -39,6 +39,8 @@ public class SumSolution {
      * @return
      */
     public int Sum_Solution(int n) {
-        return n > 0?Sum_Solution(n-1)+n:0;
+        int sum = n;
+        boolean result = (n > 0) && (sum = sum + Sum_Solution(n-1)) > 0;
+        return sum;
     }
 }
