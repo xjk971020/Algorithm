@@ -13,40 +13,27 @@ package niuke.offer;
  */
 public class ReverseSentence {
     public String reverseSentence(String str) {
-        if (str == null || str.length() == 0 || str.length() == 1) {
+        if (str == null || str.length() == 0 || str.trim().equals("") || !str.contains(" ")) {
             return str;
         }
-        char[] chars = str.toCharArray();
-        reverse(chars, 0, chars.length - 1);
-        int blank = -1;
-        int nextBlank;
-        int count = 0;
-        /**
-         * 需考虑两种情况:
-         * 第一种: 整个字符串都没有空格的情况
-         * 第二种: 最后一个不是字符串的情况
-         */
-        for (int i = 0; i <= chars.length; ++i) {
-            if (chars[i] == ' ' || i == chars.length) {
-                count++;
-                nextBlank = i;
-                reverse(chars, blank + 1, nextBlank - 1);
-                blank = nextBlank;
+        char[] strs = str.toCharArray();
+        swap(strs,0,strs.length-1);
+        int blank = 0;
+        for (int i = 0; i <= strs.length; ++i) {
+            if (i == strs.length || strs[i] == ' ') {
+                swap(strs,blank,i - 1);
+                blank = i + 1;
             }
         }
-        if (count == 0) {
-            return str;
-        }
-        return new String(chars);
+        return new String(strs);
     }
-
-    private void reverse(char[] chars, int i, int j) {
-        while (i < j) {
-            char temp = chars[i];
-            chars[i] = chars[j];
-            chars[j] = temp;
-            ++i;
-            --j;
+    private void swap(char[] chars, int start, int end) {
+        while (start < end) {
+            char temp = chars[start];
+            chars[start] = chars[end];
+            chars[end] = temp;
+            start++;
+            end--;
         }
     }
 }
