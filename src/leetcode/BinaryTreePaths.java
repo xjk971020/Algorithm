@@ -1,5 +1,6 @@
 package leetcode;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -32,6 +33,11 @@ import java.util.List;
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
 public class BinaryTreePaths {
+    /**
+     * dfs+回溯
+     * @param root
+     * @return
+     */
     public List<String> binaryTreePaths(TreeNode root) {
         List<String> result = new LinkedList<>();
         process("",root,result);
@@ -49,6 +55,38 @@ public class BinaryTreePaths {
         path = path + "->";
         process(path,root.left,result);
         process(path,root.right,result);
+    }
 
+    /**
+     * bfs
+     * @param root
+     * @return
+     */
+    public List<String> binaryTreePaths_(TreeNode root) {
+        List<String> result = new ArrayList<>();
+        if (root == null) {
+            return result;
+        }
+        LinkedList<String> strs = new LinkedList<>();
+        LinkedList<TreeNode> nodes = new LinkedList<>();
+        String path;
+        nodes.add(root);
+        strs.add(String.valueOf(root.val));
+        while (!nodes.isEmpty()) {
+            TreeNode node = nodes.poll();
+            path = strs.poll();
+            if (node.left == null && node.right == null) {
+                result.add(path);
+            }
+            if (node.left != null) {
+                nodes.add(node.left);
+                strs.add(path + "->" + node.left.val);
+            }
+            if (node.right != null) {
+                nodes.add(node.right);
+                strs.add(path + "->" + node.right.val);
+            }
+        }
+        return result;
     }
 }
