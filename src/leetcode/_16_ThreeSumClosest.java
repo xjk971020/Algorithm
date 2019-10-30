@@ -45,7 +45,7 @@ public class _16_ThreeSumClosest {
                     end--;
                 } else if (sum < target) {
                     start++;
-                } else if (sum == target) {
+                } else {
                     return 0;
                 }
             }
