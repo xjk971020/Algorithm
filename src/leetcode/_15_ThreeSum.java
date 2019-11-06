@@ -68,10 +68,4 @@ public class _15_ThreeSum {
         }
         return result;
     }
-
-    public static void main(String[] args) {
-        int[] arr = {-1, 0, 1, 2, -1, -4};
-        _15_ThreeSum threeSum = new _15_ThreeSum();
-        threeSum.threeSum(arr);
-    }
 }
