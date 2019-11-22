@@ -3,7 +3,7 @@ package leetcode;
 /**
  * @author:xjk 2019/8/21 18:54
  * leetcode
- * linked-list-cycle-ii
+ * 142. 环形链表 II
  * 题目描述
  * 对于一个给定的链表，返回环的入口节点，如果没有环，返回null
  * 拓展：
@@ -13,7 +13,7 @@ package leetcode;
  * Follow up:
  * Can you solve it without using extra space?
  */
-public class LinkedListCycleII {
+public class _142_LinkedListCycleII {
     public ListNode detectCycle(ListNode head) {
         if (head == null) {
             return null;
