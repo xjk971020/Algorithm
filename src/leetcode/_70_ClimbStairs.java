@@ -27,12 +27,12 @@ package leetcode;
  * 2.  1 阶 + 2 阶
  * 3.  2 阶 + 1 阶
  */
-public class ClimbStairs {
+public class _70_ClimbStairs {
     /**
      * 记忆化递归
      */
     int[] array;
-    public ClimbStairs() {
+    public _70_ClimbStairs() {
         array = new int[1024];
         for (int i = 0; i < array.length; ++i) {
             array[i]  = -1;
