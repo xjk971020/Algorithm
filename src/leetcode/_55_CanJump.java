@@ -26,7 +26,7 @@ package leetcode;
  * 链接：https://leetcode-cn.com/problems/jump-game
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
-public class CanJump {
+public class _55_CanJump {
     /**
      * 从后往前遍历数组，如果遇到的元素可以到达最后一行，则截断后边的元素。
      * 否则继续往前，若最后剩下的元素大于1个，则可以判断为假。
