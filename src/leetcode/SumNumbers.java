@@ -53,4 +53,36 @@ public class SumNumbers {
             getAllPathTotal(sum * 10 + root.val * 10, root.right);
         }
     }
+
+    /**
+     * 2021-04-12 深度搜索
+     * @param root
+     * @return
+     */
+    public int sumNumbers_1(TreeNode root) {
+        if (root == null) {
+            return 0;
+        }
+
+        int curResult = 0;
+        return sum(root, "", curResult);
+    }
+
+    private int sum(TreeNode node, String curNum, int result) {
+        curNum = curNum + node.val;
+
+        if (node.left != null && node.right != null) {
+            return sum(node.left, curNum, result) + sum(node.right, curNum, result);
+        }
+
+        if (node.left != null) {
+            return sum(node.left, curNum, result);
+        }
+
+        if (node.right != null) {
+            return sum(node.right, curNum, result);
+        }
+
+        return result + Integer.parseInt(curNum);
+    }
 }
