@@ -25,72 +25,48 @@ public class _84_LargestRectangleArea {
             return 0;
         }
 
-        int[][] smallIndex = getNearSmallIndex(heights);
-
         int largestArea = 0;
+        Stack<Integer> indexStack = new Stack<>();
 
         for (int i = 0; i < heights.length; i++) {
-            int leftSmallIndex = smallIndex[i][0];
-            int rightSmallIndex = smallIndex[i][1];
-            int width = 0;
-            if (leftSmallIndex == -1 && rightSmallIndex == -1) {
-                width = heights.length;
-            }
-            if (leftSmallIndex == -1) {
-                width = smallIndex[i][1] - leftSmallIndex;
-            }
-            if (rightSmallIndex == -1) {
-                width = heights.length - smallIndex[i][0];
-            }
-            int curArea = width * heights[i];
+            while (!indexStack.isEmpty() && heights[indexStack.peek()] > heights[i]) {
+                int curHeight = indexStack.pop();
 
+                while (!indexStack.isEmpty() && curHeight == heights[indexStack.peek()]) {
+                    curHeight = indexStack.pop();
+                }
+
+                int curWidth = indexStack.isEmpty() ? i : i - indexStack.peek() - 1;
+                int curArea = curWidth * curHeight;
+
+                largestArea = Math.max(curArea, largestArea);
+            }
+
+            indexStack.push(i);
+        }
+
+        while (!indexStack.isEmpty()) {
+            int curHeight = indexStack.pop();
+
+            while (!indexStack.isEmpty() && curHeight == heights[indexStack.peek()]) {
+                curHeight = indexStack.pop();
+            }
+
+            int curWidth = indexStack.isEmpty() ? heights.length : heights.length - indexStack.peek() - 1;
+            int curArea = curWidth * curHeight;
+
+            largestArea = Math.max(curArea, largestArea);
         }
 
         return largestArea;
     }
 
-    public int[][] getNearSmallIndex(int[] numbers) {
-        if (numbers == null || numbers.length == 0) {
-            return null;
-        }
+    public static void main(String[] args) {
+        int[] input = {2,1,5,6,2,3};
+        _84_LargestRectangleArea algorithm = new _84_LargestRectangleArea();
+        int res = algorithm.largestRectangleArea(input);
+        System.out.println(res);
 
-        int[][] result = new int[numbers.length][2];
-        //存放相同的数组下标的栈
-        Stack<List<Integer>> indexStack = new Stack<>();
-
-        for (int i = 0; i < numbers.length; i++) {
-            while (!indexStack.isEmpty() && numbers[indexStack.peek().get(0)] > numbers[i]) {
-                List<Integer> currEqIndexList = indexStack.pop();
-                int leftSmallIndex = indexStack.isEmpty() ? -1 : indexStack.peek().get(0);
-                int rightSmallIndex = i;
-
-                for (Integer currEqIndex : currEqIndexList) {
-                    result[currEqIndex][0] = leftSmallIndex;
-                    result[currEqIndex][1] = rightSmallIndex;
-                }
-            }
-
-            if (indexStack.isEmpty() || numbers[indexStack.peek().get(0)] != numbers[i]) {
-                List<Integer> newEqIndexList = new ArrayList<>();
-                newEqIndexList.add(i);
-                indexStack.add(newEqIndexList);
-            } else {
-                List<Integer> currEqIndexList = indexStack.peek();
-                currEqIndexList.add(i);
-            }
-        }
-
-        while (!indexStack.isEmpty()) {
-            List<Integer> currEqIndexList = indexStack.pop();
-            int leftSmallIndex = indexStack.isEmpty() ? -1 : indexStack.peek().get(0);
-            int rightSmallIndex= -1;
-            for (Integer currEqIndex : currEqIndexList) {
-                result[currEqIndex][0] = leftSmallIndex;
-                result[currEqIndex][1] = rightSmallIndex;
-            }
-        }
-
-        return result;
     }
 
 }
