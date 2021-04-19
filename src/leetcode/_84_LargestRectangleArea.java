@@ -1,7 +1,5 @@
 package leetcode;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Stack;
 
 /**
@@ -20,6 +18,11 @@ import java.util.Stack;
  */
 public class _84_LargestRectangleArea {
 
+    /**
+     * 单调栈解法
+     * @param heights
+     * @return
+     */
     public int largestRectangleArea(int[] heights) {
         if (heights == null || heights.length == 0) {
             return 0;
@@ -30,10 +33,10 @@ public class _84_LargestRectangleArea {
 
         for (int i = 0; i < heights.length; i++) {
             while (!indexStack.isEmpty() && heights[indexStack.peek()] > heights[i]) {
-                int curHeight = indexStack.pop();
+                int curHeight = heights[indexStack.pop()];
 
                 while (!indexStack.isEmpty() && curHeight == heights[indexStack.peek()]) {
-                    curHeight = indexStack.pop();
+                    curHeight = heights[indexStack.pop()];
                 }
 
                 int curWidth = indexStack.isEmpty() ? i : i - indexStack.peek() - 1;
@@ -46,16 +49,49 @@ public class _84_LargestRectangleArea {
         }
 
         while (!indexStack.isEmpty()) {
-            int curHeight = indexStack.pop();
+            int curHeight = heights[indexStack.pop()];
 
             while (!indexStack.isEmpty() && curHeight == heights[indexStack.peek()]) {
-                curHeight = indexStack.pop();
+                curHeight = heights[indexStack.pop()];
             }
 
             int curWidth = indexStack.isEmpty() ? heights.length : heights.length - indexStack.peek() - 1;
             int curArea = curWidth * curHeight;
 
             largestArea = Math.max(curArea, largestArea);
+        }
+
+        return largestArea;
+    }
+
+
+    /**
+     * 哨兵+单调栈
+     * @param heights
+     * @return
+     */
+    public int largestRectangleArea_1(int[] heights) {
+        if (heights == null || heights.length == 0) {
+            return 0;
+        }
+
+        int largestArea = 0;
+        Stack<Integer> indexStack = new Stack<>();
+        indexStack.push(0);
+
+        int[] newHeights = new int[heights.length + 2];
+        newHeights[0] = 0;
+        newHeights[newHeights.length - 1] = 0;
+
+        System.arraycopy(heights, 0, newHeights, 1, heights.length);
+
+        for (int i = 0; i < newHeights.length; i++) {
+            while (newHeights[i] < newHeights[indexStack.peek()]) {
+                int curHeight = newHeights[indexStack.pop()];
+                int curWidth = i - indexStack.peek() - 1;
+                largestArea = Math.max(largestArea, curHeight * curWidth);
+            }
+            indexStack.push(i);
         }
 
         return largestArea;
