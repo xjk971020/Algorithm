@@ -93,10 +93,12 @@ class _901_StockSpanner_1 {
 
     public int next(int price) {
         int currCount = 1;
-        while (!prePrice.isEmpty() && prePrice.peek() < price) {
-
+        while (!prePrice.isEmpty() && prePrice.peek() <= price) {
+            currCount = currCount + preCount.pop();
+            prePrice.pop();
         }
 
+        preCount.push(currCount);
         prePrice.push(price);
 
         return currCount;
